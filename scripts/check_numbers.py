@@ -150,7 +150,7 @@ PHRASES = [
     r"Stages?~[1-3]", r"Stages~2--3", r"Stages 1--3", r"Stage~[1-3]'s", r"Zen~[34]", r"7\$\\times\$7", r"7 actions",
     r"seed 0\b", r"\$\[0,1\]\^4\$", r"\\in\[0,1\]\^4", r"\\\{0,1\\\}\^4", r"\$\[-1,1\]\$", r"\$\[0,1\]\$", r"\\in\(0,1\]",
     r"\$\\gamma\\in\(0,1\]\$", r"t=0", r"T-1", r"t-1", r"V_1", r"V_0", r"\(a\)", r"\(b\)", r"\(c\)", r"\(d\)",
-    r"Figure~\\ref", r"cand\.\\ ", r"doi:10\.5281/zenodo\.23708846", r"SHA256", r"float(32|64)",
+    r"Figure~\\ref", r"cand\.\\ ", r"doi:10\.5281/zenodo\.\d+", r"SHA256", r"float(32|64)",
     # equation structure (bounds, indicator sets, signs), not measured values
     r"\[0,1\]", r"\\\{0,1\\\}", r"(max|min)\(w ,0\)", r"\$7\\times7\$", r"2z-1", r"u<0", r">0\$", r"\$1/g\$",
     r"\(1-\\gamma\)", r"\(2-s\)",

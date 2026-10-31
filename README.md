@@ -12,7 +12,8 @@ and figures, and a checker that verifies them.
 
 Every number in the PDF is a hyperlink to its line in [`results/numbers.json`](results/numbers.json), and every table
 and figure caption names the `make` target and the committed file that produce it. Links point at the tag
-`v1.0`, so they keep pointing at the evidence after `main` moves.
+`v1.1`, so they keep pointing at the evidence after `main` moves. The repository at `v1.1` is archived on
+Zenodo: [doi:10.5281/zenodo.23828842](https://doi.org/10.5281/zenodo.23828842).
 
 ## Reproduce
 
@@ -110,7 +111,7 @@ rebuilds `data/` from that archive and needs the working repository's history.
 ## Status against the open-science checklist
 
 - [x] Repository URL on page 1 of the paper (footnote), as a full URL.
-- [x] Every number, table and figure links to its file at a pinned tag (`v1.0`).
+- [x] Every number, table and figure links to its file at a pinned tag (`v1.1`).
 - [x] Every number appears in a committed file or is computed by a committed script (`make check`).
 - [x] Totals and percentages are computed by scripts from committed per-item data.
 - [x] Result files are named after the tables and figures they back.
@@ -119,12 +120,12 @@ rebuilds `data/` from that archive and needs the working repository's history.
 - [x] Seeds and versions are pinned (registered seeds in the protocol; `requirements.txt`; the training environment in
   `data/raw/repo/uv.lock`).
 - [x] `LICENSE` is present.
-- [ ] A Zenodo snapshot with a DOI, cited in the paper. Not yet created.
+- [x] A Zenodo snapshot with a DOI, cited in the paper: [doi:10.5281/zenodo.23828842](https://doi.org/10.5281/zenodo.23828842).
 
 ## License and citation
 
 Code: MIT ([`LICENSE`](LICENSE)). Data, results, figures and paper text: CC BY 4.0
 ([`LICENSE-DATA`](LICENSE-DATA)). Until the paper has an arXiv identifier, cite it as: Chase J. Metoyer, *Found by
 Search, Broken by a Shortcut: Transfer and Tampering of Searched Intrinsic Rewards*, preprint, 2026,
-<https://github.com/chasemetoyer/found-by-search> (tag `v1.0`).
+<https://github.com/chasemetoyer/found-by-search> (tag `v1.1`), doi:10.5281/zenodo.23828842.
 
