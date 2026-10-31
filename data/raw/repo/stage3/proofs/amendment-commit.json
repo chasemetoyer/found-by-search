@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "commit": "cd79ce5116cc39130001c0681e87539bb5d4a8b0",
+  "github_ref_commit": "cd79ce5116cc39130001c0681e87539bb5d4a8b0",
+  "repository_visibility": "PUBLIC",
+  "implementation_inventory_sha256": "3b9482892ebfd8e7b8c38b276038e9971c59da8b74f7c5d45acc7e8b8a796347",
+  "budget_amendment_sha256": "16451e67bda6f520237920c23c8742632609cb688c14f0755afe1f5d98d098c8",
+  "descriptive_amendment_sha256": "46b2c8940efc82331cf3bf3befef33c4457028c08bbf5a4e5cc3acafc593bb8d",
+  "verified_utc": "2026-10-29T16:05:06.684959+00:00",
+  "public_commit_utc": "2026-10-29T15:57:35Z",
+  "scope": "post-summary-infrastructure-only",
+  "prior_amendment_commit": {
+    "path": "stage3/proofs/pre-summary-amendment-commit.json",
+    "sha256": "e30daea6f1b9d42aadcd56e38fd2f2db576120518c2c8f9a90ad18cc47260383"
+  },
+  "prior_source_inventory": {
+    "path": "stage3/proofs/pre-summary-runtime-inventory.json",
+    "sha256": "6dfe779355d6448252cf5ef84b56eca34a004eb2bb0472391012a3c52284e13e"
+  },
+  "repair_amendments": [
+    {
+      "path": "preregistration/stage3-guardian-name-amendment-20261029.json",
+      "sha256": "a26ecf2c831c5677a839c5c7f836b22c2dff0ad81804e1b22a89af926cba3f03"
+    },
+    {
+      "path": "preregistration/stage3-web-concurrency-amendment-20261029.json",
+      "sha256": "2dda33f1c053352da8ed5cbd98420e32c5e3f6ab29796fdcc6d0770a9d63da7a"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "status": "ok",
+  "queried_utc": "2026-10-29T19:22:11.377297+00:00",
+  "resolution": "h",
+  "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+  "stage": "3",
+  "provider_reported_complete_intervals_cost_usd": "5.08243172",
+  "retained_billed_floor_usd": "5.08243172",
+  "cost_by_role_usd": {
+    "tracking": "0.17623322",
+    "unlabeled_stage3": "4.90619850"
+  },
+  "rows": [
+    {
+      "cost": "0.00456128",
+      "cost_by_resource": {
+        "Memory": "0.00115150",
+        "CPU": "0.00340977"
+      },
+      "description": "evolved-intrinsic-rewards-stage3-monitor",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T14:00:00+00:00",
+      "object_id": "ap-QfXLciUAiaTAO6tVQvvVfP",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+        "role": "tracking"
+      }
+    },
+    {
+      "cost": "0.02837664",
+      "cost_by_resource": {
+        "Memory": "0.00716459",
+        "CPU": "0.02121206"
+      },
+      "description": "evolved-intrinsic-rewards-stage3",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T14:00:00+00:00",
+      "object_id": "ap-QzSLMfohJxrVjI5ZEuh6P4",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70"
+      }
+    },
+    {
+      "cost": "0.02153490",
+      "cost_by_resource": {
+        "Memory": "0.00462473",
+        "CPU": "0.01691017"
+      },
+      "description": "evolved-intrinsic-rewards-stage3-monitor",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T15:00:00+00:00",
+      "object_id": "ap-QfXLciUAiaTAO6tVQvvVfP",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+        "role": "tracking"
+      }
+    },
+    {
+      "cost": "0.04933786",
+      "cost_by_resource": {
+        "Memory": "0.00884048",
+        "CPU": "0.04049738"
+      },
+      "description": "evolved-intrinsic-rewards-stage3-monitor",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T16:00:00+00:00",
+      "object_id": "ap-QfXLciUAiaTAO6tVQvvVfP",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+        "role": "tracking"
+      }
+    },
+    {
+      "cost": "1.72463715",
+      "cost_by_resource": {
+        "Memory": "0.43550047",
+        "CPU": "1.28913668"
+      },
+      "description": "evolved-intrinsic-rewards-stage3",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T16:00:00+00:00",
+      "object_id": "ap-oQwWRzSviy82AKmJ3wpmva",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70"
+      }
+    },
+    {
+      "cost": "0.05040316",
+      "cost_by_resource": {
+        "Memory": "0.00900000",
+        "CPU": "0.04140316"
+      },
+      "description": "evolved-intrinsic-rewards-stage3-monitor",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T17:00:00+00:00",
+      "object_id": "ap-QfXLciUAiaTAO6tVQvvVfP",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+        "role": "tracking"
+      }
+    },
+    {
+      "cost": "2.00840222",
+      "cost_by_resource": {
+        "Memory": "0.50704339",
+        "CPU": "1.50135883"
+      },
+      "description": "evolved-intrinsic-rewards-stage3",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T17:00:00+00:00",
+      "object_id": "ap-oQwWRzSviy82AKmJ3wpmva",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70"
+      }
+    },
+    {
+      "cost": "0.05039602",
+      "cost_by_resource": {
+        "Memory": "0.00899667",
+        "CPU": "0.04139935"
+      },
+      "description": "evolved-intrinsic-rewards-stage3-monitor",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T18:00:00+00:00",
+      "object_id": "ap-QfXLciUAiaTAO6tVQvvVfP",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+        "role": "tracking"
+      }
+    },
+    {
+      "cost": "1.14478249",
+      "cost_by_resource": {
+        "Memory": "0.28905143",
+        "CPU": "0.85573106"
+      },
+      "description": "evolved-intrinsic-rewards-stage3",
+      "environment_name": "main",
+      "interval_start": "2026-10-29T18:00:00+00:00",
+      "object_id": "ap-oQwWRzSviy82AKmJ3wpmva",
+      "tags": {
+        "stage": "3",
+        "project_id": "64555583-12e3-4641-82a0-b8841b663e70"
+      }
+    }
+  ],
+  "excluded_row_counts": {
+    "different_project": 5,
+    "different_or_missing_stage": 0
+  },
+  "native_controller_proxy_usd": null,
+  "native_controller_invoice_usd": null,
+  "native_controller_attribution": "Unknown unless the provider row carries both project_id and stage=3. The native Sandbox resource proxy stays in the ledger; missing tagged billing is not zero cost.",
+  "coverage": "Complete hourly report intervals only; recent costs, native Sandbox attribution, volume/egress or other untagged costs may be absent. Not a final invoice or a hard invoice cap.",
+  "read_only_provider_query": true,
+  "period_start_utc": "2026-10-29T14:30:16.972022+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-29T19:27:34.225477+00:00",
+  "run_id": "5eea466d-5db8-411c-878a-0cd26b3a932f",
+  "scientific_inputs": 340,
+  "completion_marker_hashes_verified": 340,
+  "marker_hash_anchor": "final controller-validation completed_inputs, preserved unchanged",
+  "marker_listed_file_hashes_verified": 6200,
+  "bytes_verified": 1476244808,
+  "policy_binaries_verified": 340,
+  "registered_source_files_verified": 62,
+  "all_specifications_exact": true,
+  "scientific_volume_mutations": 0,
+  "source_commit": "22b0808b4666e3385c1855017d27c4a8ee188251",
+  "final_controller_tracking_status": "FAIL"
+}

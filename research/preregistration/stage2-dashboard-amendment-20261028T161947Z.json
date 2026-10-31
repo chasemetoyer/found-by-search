@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-10-28T16:19:47.765117+00:00",
+  "reason": "User approval25 requests a separate read-only Stage2 progress observer. No locked file or controller changes; no scoring/search decisions changed. Tracker publication would require writes, so use self-contained HTML. Completed candidates/generations only; ambiguous preemptions explicitly unknown.",
+  "scientific_changes": false,
+  "added_unregistered_files": [
+    "scripts/stage2_dashboard.py",
+    "scripts/stage2_dashboard_assets/orx_chart.py",
+    "scripts/stage2_dashboard_assets/orx-chart.html"
+  ],
+  "reads": [
+    "canonical saved Stage2 run registry",
+    "Modal v2 volume budget-ledger.json",
+    "Modal v2 volume runs/** results/attempt metadata"
+  ],
+  "writes": "Own local dashboard/cache/process/handoff files only; no remote volume or tracking writes.",
+  "refresh_interval_seconds": 600
+}

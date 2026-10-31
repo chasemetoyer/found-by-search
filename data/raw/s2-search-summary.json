@@ -1,0 +1,23 @@
+{
+  "all_genomes_in_bounds": true,
+  "cma_candidates": 120,
+  "cma_generations_asked": 12,
+  "config": "search",
+  "equal_candidate_budget": true,
+  "finalists_per_method": {
+    "cma": 3,
+    "random": 3
+  },
+  "guard_total_usd": "29.4071174134047460803680",
+  "max_concurrent_calls": 32,
+  "peak_running_containers": 32,
+  "random_candidates": 120,
+  "replay_reproduces_cma_candidates": true,
+  "runs_expected": 1560,
+  "runs_recorded": 1560,
+  "winner_selected": {
+    "cma": true,
+    "random": true
+  },
+  "zero_growth_atoms_present": true
+}

@@ -1,0 +1,30 @@
+{
+  "guard_total_usd": "29.4071174134047460803680",
+  "hard_cap_usd": "50",
+  "current_calls_guard_usd": "25.4972974134047460803680",
+  "terminated_history_guard_usd": "3.20982000",
+  "diagnostic_allowances_usd": "0.20",
+  "overhead_allowance_usd": "0.50",
+  "setup_guard_usd": "0.00",
+  "completed_function_compute_usd": "22.37313098235288574597246",
+  "known_terminated_attempt_compute_usd": "0.4217815741575615182460",
+  "modal_billed_complete_intervals_usd": "22.07398897",
+  "invoice_total_usd": null,
+  "terminated_calls_missing_usage": 1,
+  "terminated_calls_unknown_cpu": 0,
+  "physical_attempts": 1850,
+  "physical_cpu_mix": {
+    "zen3": 1468,
+    "zen4": 82,
+    "intel": 269,
+    "other": 31
+  },
+  "scientific_success_cpu_mix": {
+    "zen4": 61,
+    "zen3": 1266,
+    "intel": 205,
+    "other": 28
+  },
+  "transport_retry_count": null,
+  "transport_retry_limitation": "Idempotent retries were not separately instrumented; count and marginal cost cannot be reconstructed. They are included in elapsed time and budget/billing, not new training observations."
+}

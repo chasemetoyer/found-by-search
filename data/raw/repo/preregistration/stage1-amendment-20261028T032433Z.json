@@ -1,0 +1,10 @@
+{
+  "execution_status": "Prepared correction only; two consecutive non-answering setup runs reached skill repair cap. No third launch is authorized yet.",
+  "failed_run": "9a308664-493d-4229-b7d3-ce15091b2fa5",
+  "implementation_sha256": {
+    "stage1/modal_app.py": "007c86e25ceac936106326878f848b7134b093bc5a22c3725ad213e23f8464c3"
+  },
+  "reason": "Second setup attempt exposed the actual index mismatch: Modal injects http://pypi-mirror.modal.local:5555/simple, while committed uv.lock uses https://pypi.org/simple. Verbose log says missing remote index for gymnasium1.4.0. Pin the build default index explicitly to the committed public PyPI index via CLI and build environment; retain --locked. No dependency version, task, seed, reward, scoring or training setting changes. Prior platform-scope amendment did not solve the failure and remains disclosed.",
+  "scientific_changes": false,
+  "timestamp_utc": "2026-10-28T03:24:33.292127+00:00"
+}

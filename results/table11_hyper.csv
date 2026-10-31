@@ -1,0 +1,22 @@
+group,Setting,Value
+,Parallel environments,16
+,Rollout length per environment,128
+,Learning rate (linearly annealed),0.00025
+,Discount gamma,0.99
+,GAE lambda,0.95
+,Minibatches per update,4
+,Epochs per update,4
+,Clip coefficient,0.2
+,Entropy coefficient,0.01
+,Value coefficient,0.5
+,Max gradient norm,0.5
+,Advantage normalization,per minibatch
+,Evaluation episodes per run,64
+,Python,3.12.12
+,torch,2.14.1+cpu
+,minigrid,3.2.0
+,gymnasium,1.4.0
+,numpy,2.5.4
+,cma,4.5.0
+,scipy,1.17.1
+,modal,1.6.3

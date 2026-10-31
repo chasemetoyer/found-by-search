@@ -1,0 +1,1452 @@
+{
+  "bit_identical_all_replicates": false,
+  "by_class": {
+    "intel": {
+      "distinct_fingerprints": 1,
+      "replicates": 13
+    },
+    "zen3": {
+      "distinct_fingerprints": 1,
+      "replicates": 46
+    },
+    "zen4": {
+      "distinct_fingerprints": 1,
+      "replicates": 5
+    }
+  },
+  "class_counts": {
+    "intel": 13,
+    "zen3": 46,
+    "zen4": 5
+  },
+  "completed_replicates": 64,
+  "distinct_fingerprint_triples": 2,
+  "guard_total_usd": "0.7432009848673820495304",
+  "matches_stage1_unpinned": {
+    "r0 (Zen 3, unpinned)": false,
+    "r1 (Zen 4, unpinned)": false
+  },
+  "max_concurrent_calls": 32,
+  "peak_running_containers": 32,
+  "pin_effects_by_replicate": {
+    "0": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "1": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "2": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "3": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "4": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "5": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "6": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "7": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "8": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "9": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "10": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "11": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "12": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "13": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "14": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "15": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "16": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "17": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "18": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "19": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "20": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "21": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "22": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "23": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "24": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "25": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "26": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "27": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "28": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "29": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "30": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "31": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "32": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "33": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "34": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "35": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "36": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "37": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "38": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "39": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "40": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "41": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "42": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "43": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "44": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "45": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "46": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "47": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "48": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "49": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "50": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "51": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "52": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "53": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "54": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "55": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "56": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "57": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "58": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "59": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "60": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": true,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "61": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "62": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    },
+    "63": {
+      "aten_capability": "AVX2",
+      "environment_set": true,
+      "mkl_cnr_avx2": false,
+      "mkl_lines_seen": true,
+      "onednn_lines_seen": true,
+      "onednn_reports_avx512": false
+    }
+  },
+  "pins": {
+    "ATEN_CPU_CAPABILITY": "avx2",
+    "MKL_CBWR": "AVX2",
+    "ONEDNN_MAX_CPU_ISA": "AVX2"
+  },
+  "pins_effective_all": false,
+  "protocol": "stage2/determinism-protocol.md",
+  "replicate_cap": 96,
+  "replicates": [
+    {
+      "attempt": "3c24d6830bc8400bbcd12db1abd1a471",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 0,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "ac934d0c7ffe45c389fed5b1dc7dbcb5",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 1,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "6e793288704044899388348cb78ae6df",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 2,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "56a609c0b546493687ba6679391be65c",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 3,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "39cdc896b29c41eebdff7b2b70d52ffc",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 4,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "d1d4eb9c98f0418da0016e5183aad06c",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 5,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "491f3a08d9834a47ae37aad27e0414ec",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 6,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "a51f1c67965743d3a304c23ce79956b1",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 7,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "2fe83ce399514cdfa4df233b372ec1ca",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 8,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "9b6aaa5b642846678cfd1d1333b73704",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 9,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "c89e37a8107f4223839f0eb1b6c215e1",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 10,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "8f25ae8af4a34f6b8df2e123514e52d0",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 11,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "39f43106caae4b18877cff3708a1d7d9",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 12,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "d9c578a85dc94ac7b82a2b50b68779db",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 13,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "7582298c7a384866acb0b47f2dd1de0f",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 14,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "2a5f23bcb46d49c08597e9f9574aac89",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 15,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "6e5326075c724cba8eeb8349ff09f0b0",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 16,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "2e6e76e38af842e4a3755d31e6d6e0fb",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 17,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "6657a6b610ff410ea33e5517aa287af4",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 18,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "9674d44347fd4eb5a65d861e54abf386",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 19,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "094ecf09574045e894dd383a873dccfe",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 20,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "373ebd6c417f4f9cb0cff55b6cb0397f",
+      "avx512f": true,
+      "cpu_class": "zen4",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 17,
+      "replicate": 21,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "347c4028f4ff41a6a7421ae13c0fe79d",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 22,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "8f9d64875f024f08ad2661998729c9f2",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 23,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "a376c9c772c9462aa137aa8b504cd299",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 24,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "dd4706fc382044b8a6dd7987befc1a04",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 25,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "9dc919d5e9df4aecbef55815c193ec10",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 26,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "4caf03d6188b49729c9796ee166883e9",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 27,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "4096fd5d78fc47ffa73767b42acf26e9",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 28,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "c3f8826e2f90470d880172fbb566844d",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 29,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "4a4cb7bf001b4677815a83e7d1bcefbc",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 30,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "823dd339328b4d3b91e2292b08599bab",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 31,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "998efc7384944ecb844c3b781f7bb785",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 32,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "db072cc0bbf848d590cb7f0806e40e4a",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 33,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "bfa4c60da3b44eeb9cc433ed0086cfc9",
+      "avx512f": true,
+      "cpu_class": "zen4",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 17,
+      "replicate": 34,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "4c7a904b3d254eaba4dfabdfbdd3c39c",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 35,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "66d2dd14e2184583994f8ee32699ad20",
+      "avx512f": true,
+      "cpu_class": "zen4",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 17,
+      "replicate": 36,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "9982900e4d7f42b6bb68d9a28c39a2ad",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 37,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "21de05311a6c4ed988f2d5e1571fa417",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 38,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "78f3171f5c8f4c8c9a0ee2fbdedce561",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 106,
+      "replicate": 39,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "b3202f0b82e54051836fd344a57e85b1",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 40,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "4db610176c854717804275e80c1bf9ce",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 41,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "e9d799f7131644258d6faea2312ddf61",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 42,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "c37b5869f7604f33a385c7f56f7548bf",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 43,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "571fa3a1dd44460589213a412ec2f8a3",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 106,
+      "replicate": 44,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "9ae4b021d6d241eaa8ddb28ee7d0d2b8",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 45,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "c355eb1e2751484d8cea6a220ec43be4",
+      "avx512f": true,
+      "cpu_class": "zen4",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 17,
+      "replicate": 46,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "e31b4cd04f3e4b4d98d776fabeae56df",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 47,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "d75072436b9b420180c7c745edf70b0d",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 48,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "ac50727d5ca546318d0e43c510b8ec17",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 49,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "cda6e630c3d04af184655b922a95a373",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 50,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "25afe99b52564c82a519e0ed447f7736",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 51,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "7e9f549caa7b4826abcc8ba1bf757dd8",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 52,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "7a4894d1ac354d85af62b29a93ab02b8",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 53,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "193c164772ad404b8495cd92c4d42802",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 54,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "1f819fb29dc245b1bd2c316d1ab05d1a",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 55,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "110158ebf266495e99dea48e2a0ebda4",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 56,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "0318a5404afd4f93b0feeaeaa64d0f00",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 57,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "eb0c1dd158774e0dbc3d7a82c81e2757",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 58,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "abf15f098c324ec1b6e055a52739569a",
+      "avx512f": true,
+      "cpu_class": "zen4",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 17,
+      "replicate": 59,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "336c892b54404909915e65debe645c84",
+      "avx512f": true,
+      "cpu_class": "intel",
+      "cpu_family": 6,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "cd16cc18b503c69e5b13196aba2548ce5a0cb0d929526c60af70f203977ce699",
+        "metrics_without_sps_sha256": "04ecd790dd91136689da8021b6f402d7fd939d1874b5c593c1eda65009ba853f",
+        "summary_sha256": "099fe66299fc97e31c42a3e4340c33c64b1979df6a2f8b4e24ed306fb2693410"
+      },
+      "model": 85,
+      "replicate": 60,
+      "vendor_id": "GenuineIntel"
+    },
+    {
+      "attempt": "5568e94c33214c0587d5c33d4daf1e67",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 61,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "65eac375461b416a9b44071940a426b8",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 62,
+      "vendor_id": "AuthenticAMD"
+    },
+    {
+      "attempt": "b6ff666845d8485eb714d33aa9310620",
+      "avx512f": false,
+      "cpu_class": "zen3",
+      "cpu_family": 25,
+      "fingerprints": {
+        "checkpoint_tensors_sha256": "a2b8981a6d69d8614a7f5b0dbec7da37f29ec0225c26c556f043f88dcc1fffce",
+        "metrics_without_sps_sha256": "5e3565d76778362c34c552557c747122f31fd95b9787a329454e25da2f613bbf",
+        "summary_sha256": "4bee598270a6409f6bbe54aa5c9c2dd467b0b8955e1c85b25b98140ff3b7882c"
+      },
+      "model": 1,
+      "replicate": 63,
+      "vendor_id": "AuthenticAMD"
+    }
+  ],
+  "stop_rule_satisfied": true
+}

@@ -1,0 +1,147 @@
+{
+  "bill_is_final_invoice": false,
+  "cap_margin_usd": "7.9594993352186060257186",
+  "completion": {
+    "completed": 340,
+    "expected": 340,
+    "finished_utc": "2026-10-29T18:48:18.310105+00:00",
+    "guard_total_usd": "8.8038723316398382075214",
+    "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+    "profile": "science",
+    "run_id": "5eea466d-5db8-411c-878a-0cd26b3a932f",
+    "status": "PASS"
+  },
+  "completion_receipt_guard_before_session_release_usd": "8.8038723316398382075214",
+  "controller_owner_lock_released": true,
+  "controller_session_reservation_release_usd": "1.7633716668584442332400",
+  "controller_validation": {
+    "completed": 340,
+    "expected": 340,
+    "implementation_inventory_sha256": "3b9482892ebfd8e7b8c38b276038e9971c59da8b74f7c5d45acc7e8b8a796347",
+    "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+    "profile": "science",
+    "replayed": 0,
+    "run_id": "5eea466d-5db8-411c-878a-0cd26b3a932f",
+    "source_commit": "22b0808b4666e3385c1855017d27c4a8ee188251",
+    "status": "PASS",
+    "submitted": 340,
+    "tracking_status": "FAIL",
+    "worker_smoke_run_id": "f23220df-d501-4cde-8dbd-4c9d1bf8840e"
+  },
+  "cost_by_role_usd": {
+    "tracking": "0.12583720",
+    "unlabeled_stage3": "3.76141601"
+  },
+  "current_service_lease": {
+    "expires_unix": 1793333193.5857902,
+    "lease_id": "5eea466d-5db8-411c-878a-0cd26b3a932f",
+    "started_utc": "2026-10-29T16:06:33.585816+00:00"
+  },
+  "distinct_worker_provider_handles": 374,
+  "frozen_final_guard_usd": "7.0405006647813939742814",
+  "guard_components_usd": {
+    "all_tracking_guardian_reservations": "0.41478900000",
+    "billing_adjustment": "0",
+    "controller_session_proxies": "0.5721850098009776866852",
+    "scientific_worker_guards": "5.233582293585085859740",
+    "shared_overhead_allowance": "0.50",
+    "smoke_worker_guards": "0.0648241954822826388362",
+    "tracking_service_reservation": "0.255120165913047789020"
+  },
+  "guardian_statuses": {
+    "0dd2817c-9ff4-4a17-9471-3ff6cf8e2700": [
+      "PENDING"
+    ],
+    "1acee54b-bba4-440b-9fd1-fad209709222": [
+      "FAILURE"
+    ],
+    "5eea466d-5db8-411c-878a-0cd26b3a932f": [
+      "PENDING"
+    ],
+    "7a52cac4-b799-4c15-9454-10e72492c744": [
+      "PENDING"
+    ],
+    "fb0a1acd-213c-4e90-89ef-0a9485b899b1": [
+      "PENDING"
+    ]
+  },
+  "hard_cap_usd": "15",
+  "ledger_sha256": "6ade048006a19fa44f55602b09d52bd961f01b492e8328b76e35f14f899073e5",
+  "ledger_unchanged_during_audit": true,
+  "limitations": [
+    "Function estimates use requested1core2GiB limits times measured wall and exclude setup/teardown. Guard retains submit-to-result wall+60s.",
+    "Native controller maxima are unset;1core2GiB wall cost is a forecast proxy, not a measured invoice. Controller CPU identifiers were not logged and remain unknown.",
+    "Hourly tagged billing is delayed and omits untagged native Sandbox, volume/egress or unrelated-role charges. Missing attribution is not zero cost.",
+    "All five paid guardians and one service lease remain reserved; their eventual invoice is not finalized. Do not stop or restart any service from this analysis.",
+    "No exact preemption reason is inferred from same-call attempts; provider and physical metadata are reported separately."
+  ],
+  "manual_scientific_retries": 0,
+  "observed_utc": "2026-10-29T18:55:50.774101+00:00",
+  "physical_by_profile": {
+    "science": {
+      "additional_same_call_attempts": 13,
+      "attempts_missing_usage": 0,
+      "cpu_mix": {
+        "intel": 61,
+        "other": 8,
+        "zen3": 264,
+        "zen4": 20
+      },
+      "function_wall_seconds": 273969.581558769,
+      "known_attempt_errors": 13,
+      "logical_calls": 340,
+      "outcome_counts": {
+        "success": 340
+      },
+      "peak_rss_range_bytes": [
+        580317184,
+        718671872
+      ],
+      "physical_attempts": 353,
+      "provider_status_counts": {
+        "SUCCESS": 340
+      },
+      "training_core_seconds": 260817.31,
+      "worker_compute_estimate_usd": "4.8054264605408082729796",
+      "worker_guard_usd": "5.233582293585085859740"
+    },
+    "smoke": {
+      "additional_same_call_attempts": 0,
+      "attempts_missing_usage": 0,
+      "cpu_mix": {
+        "intel": 4,
+        "zen3": 28,
+        "zen4": 2
+      },
+      "function_wall_seconds": 1201.282320215,
+      "known_attempt_errors": 0,
+      "logical_calls": 34,
+      "outcome_counts": {
+        "success": 34
+      },
+      "peak_rss_range_bytes": [
+        701796352,
+        711307264
+      ],
+      "physical_attempts": 34,
+      "provider_status_counts": {
+        "SUCCESS": 34
+      },
+      "training_core_seconds": 1072.67,
+      "worker_compute_estimate_usd": "0.02107049189657110047358",
+      "worker_guard_usd": "0.0648241954822826388362"
+    }
+  },
+  "provider_billing_after_status": "ok",
+  "provider_billing_after_usd": "3.88725321",
+  "provider_billing_at_controller_stop_usd": "3.88725321",
+  "provider_graph_read_errors": 0,
+  "provider_queries_read_only": true,
+  "retained_guardian_charges_or_reservations_in_guard_usd": "0.41478900000",
+  "scientific_controller_restarts": 0,
+  "scientific_volume_mutations": 0,
+  "tracking_lease_expires_utc": "2026-10-30T04:06:33.585790+00:00",
+  "tracking_server_remaining_max_resource_proxy_usd": "0.14489272925687192785",
+  "tracking_service_remaining_seconds_at_audit": 33042.81168913841,
+  "training_or_controller_invocations": 0
+}

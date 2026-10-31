@@ -1,0 +1,11 @@
+{
+  "approval_scope": "Infrastructure repairs and setup attempts only; total cap USD15; scientific protocol fixed; no Stage2.",
+  "implementation_sha256": {
+    "stage1/budget.py": "96f9775c71402cde3479e8290aa61a3aa64be5475e2b365ecfba12ce0520343d",
+    "stage1/modal_app.py": "76d74e1e1d48c9e812439d470747b4d1f9e2942f298874ddc6886b37f0a67a57"
+  },
+  "reason": "User explicitly approved further infrastructure repairs and setup attempts within the existing USD15 cap. Remove the automatic two-setup-failure permission stop, retain all failure history, and reserve USD0.25 per failed or in-flight image build in addition to the shared overhead allowance. These guard amounts are protective reservations, not claimed invoice costs. Keep all per-call cost guards and unknown-call reconciliation. Apply the already prepared explicit PyPI index setting. No scientific setting changes.",
+  "scientific_changes": false,
+  "timestamp_utc": "2026-10-28T03:30:52.267184+00:00",
+  "user_approval_quote": "Continue setup repairs within $15"
+}

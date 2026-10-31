@@ -1,0 +1,15 @@
+{
+  "schema": "stage3-timestamped-infrastructure-amendment",
+  "created_utc": "2026-10-29T15:57:29.588420+00:00",
+  "authorization_approval_seq": 37,
+  "scope": "infrastructure-only",
+  "scientific_changes": false,
+  "registered_tests_seeds_and_workers_unchanged": true,
+  "prior_inventory_sha256": "e06c300235b79315163a77ed95f6ece55c3a96a3afffdb2f11b79d2048f79108",
+  "new_inventory_sha256": "3b9482892ebfd8e7b8c38b276038e9971c59da8b74f7c5d45acc7e8b8a796347",
+  "replacements": {
+    "stage3/tracking_server.py": "2f61f012eabd4352036e6bdf5f637d952892ab52f149a224e1795ede4b844091"
+  },
+  "reason": "NativeVisualize/GradiolonglivedconnectionoccupiessingleModalASGIinputslot; read-onlystatsbacklog252,num_running_inputs1. Enable64concurrentwebinputswithinexisting1container/.25core/.5GiBcap. Middlewarewrite/volumecommitsremainserializedbyexistinglock.",
+  "budget_note": "Onephysicaltrackingserviceacrossrenewals. Retainelapsedworstcasetrackingcostplusonefresh12hreservation; releaseonlyduplicateunusedoverlappingleaseallocations. Retainallpaidguardianreservations."
+}

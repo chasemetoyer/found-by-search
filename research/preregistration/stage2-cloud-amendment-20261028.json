@@ -1,0 +1,45 @@
+{
+  "schema": "stage2-combined-cloud-infrastructure-amendment-v1",
+  "approval_seq": 30,
+  "migration_approval_seq": 28,
+  "created_utc": "2026-10-28T21:17:33.113382+00:00",
+  "scientific_changes": false,
+  "prior_amendment_sha256": "30de5e3030e40128eab94769a0deb8b7d59397bb748050d8bef1a89a7c52948f",
+  "implementation_sha256": {
+    "scripts/run_stage1.sh": "1196d971451a9943a191d9f09382e27eb7335d8055f904c295021c71a6354904",
+    "stage2/budget.py": "c7e2e37402e78d0bdcc0e2568b09ec5e262348c828db7adad212ba16da5e68dc",
+    "stage2/common.py": "b261a028e787426ba5db3347c2baa942c7e0edae5ec69130f29dba86f5c9e9cf",
+    "stage2/controller.py": "e58649c195a3cbfc8be24b9cb586f2813116891306cb1119538f5e0aaf2cdbdb",
+    "stage2/modal_app.py": "695b83e3bd75197c320772a96d6f6b9025b1cdf8763e3a46dc2292779247c4fe",
+    "stage2/registration.py": "89f7769617249d4b8dea5978a56458cc52d23893f9e49fab59df1338c9eba572"
+  },
+  "added_file_sha256": {
+    "stage2/cloud.py": "2b2fc4b6e16b4fd0757aed40cf19005d9f846bdf13ec0243d1e5614fc40b5887",
+    "scripts/stage2_cloud_preflight.py": "42ca4f13d0c0122628c92a09704dc3ffce8c05c715ff5f78a6badd81985cf8e0",
+    "handoff-cross-platform/cloud-controller/recorded-fitness.json": "f3e90f1b312ec99cc944f96ef7ccbe3267dc3fb3a54245a2be6f184e4168c368",
+    "tests/test_stage2_cloud.py": "298d6cb03b1fe595c0e54ae81bd9abfc832fcee27ca2641a2a199d3a2b015945"
+  },
+  "allowed_config_sha256": {
+    "verify": "92926718ed76fc2bb162a15279905514fcfb75d87969ac4f5e021588b33366a0",
+    "search": "d181de63dcc2b84faeefdf7f720fd9e51130a77370a59dedce293cb3a1b60191"
+  },
+  "policy": {
+    "monetary_caps_removed": true,
+    "prelaunch33_gate_waived": true,
+    "controller_restart_count_authorized": 1,
+    "restart_after_another_stop": false,
+    "training_deadline_seconds": 3600,
+    "controller_timeout_seconds": 43200,
+    "before_training": "Exact Linux replay and no-completed-input-duplication receipt bound to these runtime hashes",
+    "fitness": "Existing run/candidate fitness values are frozen and used unchanged for replay. New results use original scoring. CMA-ES code/settings unchanged; no pickle, genome adjustment or approximate matching."
+  },
+  "changes": [
+    "Preserved versions and timestamped hash chain for cloud entry, deadline-aware download/poll/persistence retries and fixed run contract.",
+    "Verification phase starts no controller/trainer and writes only its audit receipt on the volume.",
+    "Search phase requires the Linux receipt and unchanged source/ledger; one remote Sandbox controller with12h timeout.",
+    "Remove runtime35USD cap and prelaunch33threshold; keep guards for unknown submissions, duplicate calls, fixed run parameters, failure limits and per-input deadlines.",
+    "Retain all old costs/handles and controller Sandbox reservations; persist progress and CPU records on volume.",
+    "Actual laptop-closure verification requires observed provider progress during a real user-confirmed closure."
+  ],
+  "validation": "113 local tests including actual polling/persistence retries, cap removal without disabling identity/deadline/uncertainty checks, verification-only no-training gate, and worker image inclusion of frozen fitness."
+}

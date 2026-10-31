@@ -1,0 +1,33 @@
+{
+  "schema": "stage3-timestamped-infrastructure-amendment",
+  "created_utc": "2026-10-29T15:46:18.345829+00:00",
+  "authorization_approval_seq": 37,
+  "scope": "infrastructure-only",
+  "scientific_changes": false,
+  "registered_tests_and_seeds_unchanged": true,
+  "frozen_E_R_unchanged": true,
+  "original_locked_files_unchanged": true,
+  "prior_inventory_sha256": "6dfe779355d6448252cf5ef84b56eca34a004eb2bb0472391012a3c52284e13e",
+  "new_inventory_sha256": "e06c300235b79315163a77ed95f6ece55c3a96a3afffdb2f11b79d2048f79108",
+  "reason": "Tracking guardian looked up stage3-tracking while controller deploys stage3-monitor; bindguardian toactual deployedapp, preserveexistingtrackingvolume. Preservepost-summaryapprovalforstrictlyallowlistedinfrastructureonly withpriorpublicamendment+sourceprovenance.",
+  "replacements": {
+    "stage3/tracking_server.py": {
+      "prior_sha256": "3ada4f8b9e9d9e8ee4cc2f2652f14afe8afd1ddb887eacc136c14e57285797bf",
+      "replacement_sha256": "407406657bc10e90efeacefa7201dde586eaa716190ce161611f3e87b5ccc2eb"
+    },
+    "stage3/gates.py": {
+      "prior_sha256": "829774588803665b7c587001a090870977b2e686029dd5f4795c4adc236c826d",
+      "replacement_sha256": "54d5c21b987b10e676cfca3b62be99f0616c8e5b46550e25e9bb335d94253026"
+    },
+    "tests/test_stage3_tracking.py": {
+      "prior_sha256": null,
+      "replacement_sha256": "8dfa806f6487d980ae20c0b8faa53b4262a6a425d72ddf5812545be6bf298567"
+    },
+    "tests/test_stage3_gates.py": {
+      "prior_sha256": null,
+      "replacement_sha256": "54d771697127ef5b06611bf8213f71e5bea67974d482f760e083e06521b3025b"
+    }
+  },
+  "validation": "89localStage3testsPASS; then34savedtinyinputsLinuxreplaywithzeroPPO before scientificlaunch",
+  "budget_only_tracking_reservation": "Retain priortrackingservice12hreservation andfundafresh12hleaseforeachvalidation/science renewal beforelaunch; hard15USDguardunchanged. Includeallsupersededguardiancharges."
+}

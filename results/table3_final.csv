@@ -1,0 +1,16 @@
+group,Method,Mean area (SD),Solved,95% CI (solved),Median first solve
+KeyCorridorS3R2 (held out),E (CMA-ES-selected),0.457 (0.139),4/20,"[0.06, 0.44]",2M (censored)
+KeyCorridorS3R2 (held out),R (random-search-selected),0.298 (0.102),0/20,"[0.00, 0.17]",2M (censored)
+KeyCorridorS3R2 (held out),T (task-only),0.004 (0.002),0/20,"[0.00, 0.17]",2M (censored)
+KeyCorridorS3R2 (held out),N (episodic novelty),0.064 (0.035),0/20,"[0.00, 0.17]",2M (censored)
+KeyCorridorS3R2 (held out),S (satiation)†,0.768 (0.046),20/20,"[0.83, 1.00]",0.63M
+DoorKey-8x8 (training),E (CMA-ES-selected),0.837 (0.058),20/20,"[0.83, 1.00]",0.45M
+DoorKey-8x8 (training),R (random-search-selected),0.867 (0.048),20/20,"[0.83, 1.00]",0.37M
+DoorKey-8x8 (training),T (task-only),0.286 (0.333),8/20,"[0.19, 0.64]",2M (censored)
+DoorKey-8x8 (training),N (episodic novelty),0.603 (0.226),17/20,"[0.62, 0.97]",0.86M
+DoorKey-8x8 (training),S (satiation)†,0.903 (0.031),20/20,"[0.83, 1.00]",0.31M
+UnlockPickup (training),E (CMA-ES-selected),0.349 (0.187),8/20,"[0.19, 0.64]",1.68M
+UnlockPickup (training),R (random-search-selected),0.294 (0.134),3/20,"[0.03, 0.38]",2M (censored)
+UnlockPickup (training),T (task-only),0.003 (0.002),0/20,"[0.00, 0.17]",2M (censored)
+UnlockPickup (training),N (episodic novelty),0.006 (0.002),0/20,"[0.00, 0.17]",2M (censored)
+UnlockPickup (training),S (satiation)†,0.073 (0.143),1/20,"[0.00, 0.25]",2M (censored)

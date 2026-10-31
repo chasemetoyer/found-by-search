@@ -1,0 +1,19 @@
+{
+  "schema": "stage3-prelaunch-infrastructure-hardening",
+  "created_utc": "2026-10-29T15:06:12.978137+00:00",
+  "approval_seq": 34,
+  "scientific_changes": false,
+  "original_registered_files_unchanged": true,
+  "prior_inventory_sha256": "39a17c411eea869ce594cb9a9ee9490596d702c3f73593414a3fbdccf79bb529",
+  "new_inventory_sha256": "6dfe779355d6448252cf5ef84b56eca34a004eb2bb0472391012a3c52284e13e",
+  "fixes": [
+    "Hash-bound prelaunch evidence and separate post-summary goahead",
+    "User36 lidtestwaived explicitlyUNVERIFIED",
+    "Trackingmeans include registeredzero earlysuccess",
+    "Physicalfailure/restartcounts inclactiveattempts",
+    "Independentfinaltrackingflush/readback",
+    "Providerbillingfloor andretainedmodeladjustment preventnewreservationsbeingabsorbed",
+    "Trackingwarm12hlease pluspaid cappedshutdown guardian, oldleasescannotstopnewdeployment"
+  ],
+  "validation": "Replay34existingtinyinputswith0newPPOcalls; unchangedworkerhashesalreadytested13f6de8"
+}

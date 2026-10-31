@@ -1,0 +1,169 @@
+{
+  "schema": "stage2-infrastructure-amendment-v2",
+  "created_utc": "2026-10-28T20:39:30.174413+00:00",
+  "approval_seq": 27,
+  "approval_quote": "Resume it again because it terminated because my laptop closed, is there a way i can keep the experiments working if my laptop closes?, and are they messing the whole entire experiment up since my laptop keeps closing",
+  "scientific_changes": false,
+  "prior_amendment_sha256": "6a43c36a74d0bceb0386d8256e4ba4dc9fc2d807b6479f90c260bebcdce722b4",
+  "implementation_sha256": {
+    "stage2/controller.py": "3e56d64632495a1901d2ba3597dd7b5a2bc5926fbba20d54a86e0556c6b9a216",
+    "stage2/registration.py": "1ef4d5fc92dc4c75567c71a4560012d91b9b2715b990782d1223de14507c1870"
+  },
+  "added_file_sha256": {
+    "stage2/recovery_v2.py": "40f4fe282c2c26d01ef7fa610f144b9594b1cc5fabb96523e8ce53821c019258",
+    "stage2/transport.py": "74b3f32dd2436b634485ae405ce8bd9e8d4d33e446888b2dd34f91c281ffeeb5",
+    "tests/test_stage2_transport.py": "a1a952df9551b29bbae1628a311251dcf1ddef368afb2617c7110ae94c35e9ec",
+    "tests/test_stage2_recovery_v2.py": "00b0ebb8c9e3d698327f49e246aafcdc5cfe97f993576ac45470b9730a570b01"
+  },
+  "previous_results_directory": "/Users/chasemetoyer/.local/share/openresearch/local-runs/13b2db55-d617-48f4-8c3e-78093f0be19a/repo/results",
+  "interrupted_run_id": "13b2db55-d617-48f4-8c3e-78093f0be19a",
+  "interrupted_ledger_canonical_sha256": "4d813a81d5d9e74373f46ccce2041103b8a1462c7a47d6b0824e685bf4d61ede",
+  "interrupted_calls": {
+    "search_cma-g05-c057-DoorKey-8x8-2000000-seed1016": {
+      "function_call_id": "fc-01M6223KBRD359X2QPFXREPYW8",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c057-DoorKey-8x8-2000000-seed1017": {
+      "function_call_id": "fc-01M6223NR3WB94XSKPB8YHG4A0",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c057-UnlockPickup-2000000-seed1015": {
+      "function_call_id": "fc-01M6223QQTNAJCD6Y8BMTPBAM1",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c057-UnlockPickup-2000000-seed1016": {
+      "function_call_id": "fc-01M6223TGTK3M35TEVWY491EFY",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "bb68187981f96cd0d64e5d9a4b6254378e88c866ce353e07b00b696da42c4e96"
+    },
+    "search_cma-g05-c057-UnlockPickup-2000000-seed1017": {
+      "function_call_id": "fc-01M6223W8DQ06AX9BKBAMJ4A0Z",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "76f15dae20aa6f8deb2c5b8363a07c17510965a42ef4e361f72e0cca2e13c09c"
+    },
+    "search_cma-g05-c058-DoorKey-8x8-2000000-seed1015": {
+      "function_call_id": "fc-01M6223XXA9AXZT8F8CGBBXJS1",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c058-DoorKey-8x8-2000000-seed1016": {
+      "function_call_id": "fc-01M62240NMWJK5XJJSMHJTWG2V",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "696b87d042362ba5b9f008e676ab297228aaeb742e174b9ea69c74e1ae808b4f"
+    },
+    "search_cma-g05-c058-DoorKey-8x8-2000000-seed1017": {
+      "function_call_id": "fc-01M62242Q28F925N1PYW99VQQB",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c058-UnlockPickup-2000000-seed1015": {
+      "function_call_id": "fc-01M622463BQ7R16YPFRADAK7HR",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c058-UnlockPickup-2000000-seed1016": {
+      "function_call_id": "fc-01M62247Z51XWSFF52D10N69VG",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c058-UnlockPickup-2000000-seed1017": {
+      "function_call_id": "fc-01M6224AW7T203SKK0RFFMRV15",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c059-DoorKey-8x8-2000000-seed1015": {
+      "function_call_id": "fc-01M6224CRSKWK0TNVD7XF0TD9V",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c059-DoorKey-8x8-2000000-seed1016": {
+      "function_call_id": "fc-01M6225DJDJ0XY2HS3ZPC874QY",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c059-DoorKey-8x8-2000000-seed1017": {
+      "function_call_id": "fc-01M6225G8CY5VJJ6CYH0F4C4WS",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c059-UnlockPickup-2000000-seed1015": {
+      "function_call_id": "fc-01M62263CTMAXR18W17P6CMAKP",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c059-UnlockPickup-2000000-seed1016": {
+      "function_call_id": "fc-01M62265MEGAR2QCFJGCVBA3G6",
+      "provider_status": "TERMINATED"
+    },
+    "search_cma-g05-c059-UnlockPickup-2000000-seed1017": {
+      "function_call_id": "fc-01M62267SM0BBQ4ZD7WRBT6CHW",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "d06e1c0d9337b2e01af6d1de43ea5a16b3db72bffb18b46d4f6a377b0a9230ab"
+    },
+    "search_random-b02-c024-DoorKey-8x8-2000000-seed3007": {
+      "function_call_id": "fc-01M62269QQFJH7172H4SNZYZ3N",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c024-DoorKey-8x8-2000000-seed3008": {
+      "function_call_id": "fc-01M6226C1BS9WBC3VBDZG9DS5R",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c024-UnlockPickup-2000000-seed3006": {
+      "function_call_id": "fc-01M6226FFQ8PKRZH13SHFZ9V7F",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c024-UnlockPickup-2000000-seed3007": {
+      "function_call_id": "fc-01M6226JCY7Z36V281XQ7RXMHG",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c024-UnlockPickup-2000000-seed3008": {
+      "function_call_id": "fc-01M622ECC75236QP3D01FDW3SS",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-DoorKey-8x8-2000000-seed3006": {
+      "function_call_id": "fc-01M622FYTVZNHHWZXXXC28PSDV",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-DoorKey-8x8-2000000-seed3007": {
+      "function_call_id": "fc-01M622JP94CCE7324S3CAGHD70",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-DoorKey-8x8-2000000-seed3008": {
+      "function_call_id": "fc-01M622RKFH286REHYKTYH46CZK",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-UnlockPickup-2000000-seed3006": {
+      "function_call_id": "fc-01M622RV6H9MK8YBWTFG7N8QA3",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-UnlockPickup-2000000-seed3007": {
+      "function_call_id": "fc-01M622S57GFWX7WZNAQSKMGQZS",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-UnlockPickup-2000000-seed3008": {
+      "function_call_id": "fc-01M622S920BEKNB0ZC2RDGMB1G",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-DoorKey-8x8-2000000-seed3006": {
+      "function_call_id": "fc-01M622SCRBCH0EC068ZEPC9Y5P",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-DoorKey-8x8-2000000-seed3007": {
+      "function_call_id": "fc-01M622T1N55DZRGAA08XNGS8DM",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-DoorKey-8x8-2000000-seed3008": {
+      "function_call_id": "fc-01M622T6XXDBQS2M6MJYR2C4BW",
+      "provider_status": "TERMINATED"
+    }
+  },
+  "previous_pending_retries_preserved": 9,
+  "previous_historical_provider_records_preserved": 14,
+  "validation": "106 fixture tests, including new-outage reconciliation with previous pending retries/history and chained authorization; no training.",
+  "transport_policy": {
+    "attempts": 6,
+    "backoff_seconds": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "polling": "Same provider handle; original absolute deadline; no new spawn",
+    "persistence": "Repeat idempotent upload of identical saved ledger bytes; never repeat a submission",
+    "permanent_or_worker_errors": "Fail closed without transport retries",
+    "submission_unknown": "Remains uncertain; no blind retry"
+  },
+  "scope": "Recover4saved successes; authorize27new terminated identical-input retries, preserving9previous pending retries and all14historical charges. Keep35USD cap; no Stage3."
+}

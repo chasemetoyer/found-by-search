@@ -1,0 +1,24 @@
+{
+  "budget_steps": 2000000,
+  "cma_rng_seed": 424242,
+  "cma_seed_base": 1000,
+  "coef": 1.0,
+  "deadline_seconds": 3600,
+  "finalist_seed_base_cma": 1900,
+  "finalist_seed_base_rs": 3900,
+  "finalist_seeds_per_task": 10,
+  "finalists_per_method": 3,
+  "generations": 12,
+  "isa_pins": {},
+  "name": "search",
+  "population": 10,
+  "rs_candidates": 120,
+  "rs_rng_seed": 535353,
+  "rs_seed_base": 3000,
+  "seeds_per_task": 3,
+  "sigma0": 0.25,
+  "tasks": [
+    "DoorKey-8x8",
+    "UnlockPickup"
+  ]
+}

@@ -1,0 +1,4 @@
+group,Stage,Cap,Guard,Measured compute,Provider billing
+,Stage 1,15,2.88,--,1.52
+,Stage 2,35 -> 50,29.41,22.37,22.07
+,Stage 3,10 -> 15,7.04,4.81,5.08

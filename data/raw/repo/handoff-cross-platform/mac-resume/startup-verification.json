@@ -1,0 +1,19 @@
+{
+  "verified_utc": "2026-10-28T22:22:02.142213+00:00",
+  "run_id": "7c1aa413-3b48-4533-a027-2858264eb0e3",
+  "run_source_commit": "2b24daa20ef8755d5ac1c3771d3f77f76f0bb7e2",
+  "hard_cap_usd": "50",
+  "saved_outputs_resynced": 492,
+  "saved_successes_included": 4,
+  "first_submissions_checked": 9,
+  "submitted_saved_completion_overlap": [],
+  "guard_usd": "13.4279582911438989529760",
+  "ledger_status_counts": {
+    "complete": 684,
+    "running": 10,
+    "retry_pending": 26
+  },
+  "modal_app_id": "ap-zMPOI6oI5EJGLvyu1ylAZ5",
+  "status": "RUNNING_NEW_MODAL_INPUTS",
+  "automatic_further_restart_authorized": false
+}

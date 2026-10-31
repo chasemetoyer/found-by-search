@@ -1,0 +1,24 @@
+{
+  "schema": "stage3-final-analysis-v1",
+  "scientific_run": "5eea466d-5db8-411c-878a-0cd26b3a932f",
+  "number_of_runs": 340,
+  "registered_plan_inputs": 340,
+  "rows_per_run": 98,
+  "nominal_steps": 2000000,
+  "actual_steps": 1998848,
+  "area": "Arithmetic mean of98 logged train/success values; initial missingtrain/success=0; not integrated evalcurve",
+  "solved": "Mean of finalfloor(98/10)=9 loggedtrain/success rows>=0.9",
+  "first_solved_censor": "Nominal2000000 if first_solved_step missing",
+  "comparisons_unpaired": true,
+  "ties": "Independent-label SciPy permutation,200000resamples,seed0; same archived U statistic with vectorizedbatch1000",
+  "family_sizes": {
+    "primary": 3,
+    "secondary": 6
+  },
+  "meaningful_gate": "Holm-adjustedp<.05 AND observedmeanareadifference>=.05; no populationmean confidencebound",
+  "tamper_branch_fixed_from_frozen_winner": "P0positive;one-sidedoff>ononly;nofallback",
+  "entropy_definition": "Existing final PPO minibatch mean categorical policy entropy (nats)",
+  "descriptive_label": "Frozen pre-data instrumentation.descriptive_label; all20seeds/everyfinal10%window",
+  "R_P0_is_not_signed_return_ceiling": true,
+  "source_script_sha256": "e58a029699a3c1b2f832f43e9eb9e880cb9a1c08d0a3586989ecd948b39fc1a8"
+}

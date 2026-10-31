@@ -1,0 +1,12 @@
+{
+  "completed": 34,
+  "expected": 34,
+  "finished_utc": "2026-10-29T14:38:30.039544+00:00",
+  "guard_total_usd": "0.8539354739273548127642",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "profile": "smoke",
+  "run_id": "f23220df-d501-4cde-8dbd-4c9d1bf8840e",
+  "status": "PASS",
+  "source_commit": "13f6de812abcbf0c3bb097770ee5d7e041b05efe",
+  "implementation_inventory_sha256": "39a17c411eea869ce594cb9a9ee9490596d702c3f73593414a3fbdccf79bb529"
+}

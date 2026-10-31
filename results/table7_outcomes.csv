@@ -1,0 +1,24 @@
+group,Registered rule or test,Result,Outcome
+"Stage 1 (locked 28 October 2026, 03:12:23 UTC)",Validation gate before training,"53 tests, 0 failures",passed
+"Stage 1 (locked 28 October 2026, 03:12:23 UTC)","Determinism check (report, no tuning)","same seed, separate containers",not bit-identical
+"Stage 1 (locked 28 October 2026, 03:12:23 UTC)",Task-selection rule,"kept: DoorKey-8x8, UnlockPickup, KeyCorridorS3R2",applied mechanically
+"Stage 1 (locked 28 October 2026, 03:12:23 UTC)",,"rejected: KeyCorridorS3R1, BlockedUnlockPickup, DoorKey-16x16, MultiRoom-N2-S4",
+"Stage 1 (locked 28 October 2026, 03:12:23 UTC)","1M baseline separation (two-sided, Holm m=3)","descriptive test, no prediction",not separated in 3 of 3
+"Stage 1 (locked 28 October 2026, 03:12:23 UTC)",Spending limit,15; guard 2.88,within limit
+"Stage 2 (locked 28 October 2026, 14:28:30 UTC)",Equal candidate budget,"120 CMA-ES, 120 random",held
+"Stage 2 (locked 28 October 2026, 14:28:30 UTC)",Generation barrier and exact ask/tell replay,replay reproduces every CMA-ES candidate,held
+"Stage 2 (locked 28 October 2026, 14:28:30 UTC)",Candidate-failure guard (>5% stops search),0 candidate numerical failures,not triggered
+"Stage 2 (locked 28 October 2026, 14:28:30 UTC)",Winner rule (highest re-evaluated mean area),"E = candidate 113, R = candidate 57",applied
+"Stage 2 (locked 28 October 2026, 14:28:30 UTC)",Budget stop rule,cap 35 raised to 50 by amendment; guard 29.41,within cap
+Stage 3 (registered in the Stage 2 lock),"primary: E > T, KeyCorridorS3R2",Holm p = 1e-5; gap +0.452,hit; meaningful
+Stage 3 (registered in the Stage 2 lock),"primary: E > N, KeyCorridorS3R2",Holm p = 2.2e-11; gap +0.393,hit; meaningful
+Stage 3 (registered in the Stage 2 lock),"primary: E > R, KeyCorridorS3R2",Holm p = 0.00015; gap +0.159,hit; meaningful
+Stage 3 (registered in the Stage 2 lock),"secondary: E > T, DoorKey-8x8",Holm p = 8.5e-9; gap +0.551,hit; meaningful
+Stage 3 (registered in the Stage 2 lock),"secondary: E > N, DoorKey-8x8",Holm p = 1e-5; gap +0.234,hit; meaningful
+Stage 3 (registered in the Stage 2 lock),"secondary: E > R, DoorKey-8x8",Holm p = 0.981; gap -0.031,miss
+Stage 3 (registered in the Stage 2 lock),"secondary: E > T, UnlockPickup",Holm p = 2e-5; gap +0.346,hit; meaningful
+Stage 3 (registered in the Stage 2 lock),"secondary: E > N, UnlockPickup",Holm p = 2e-5; gap +0.342,hit; meaningful
+Stage 3 (registered in the Stage 2 lock),"secondary: E > R, UnlockPickup",Holm p = 0.383; gap +0.055,miss
+Stage 3 (registered in the Stage 2 lock),Tamper branch fixed by sign of P0,P0 = 0.6396,collapse branch
+Stage 3 (registered in the Stage 2 lock),Collapse test (off > on),p = 5e-6,hit
+Stage 3 (registered in the Stage 2 lock),Budget stop rule,cap 10 raised to 15 by amendment; guard 7.04,within cap

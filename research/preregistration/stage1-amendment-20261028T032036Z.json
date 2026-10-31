@@ -1,0 +1,24 @@
+{
+  "added_package_versions": [],
+  "evidence_before_amendment": "No validation Function call or training input was submitted. The image build failed; initial budget overhead allowance retained and setup failure logged.",
+  "failed_run": "a9cf12e2-86e3-4420-b523-084c03ffce18",
+  "implementation_sha256": {
+    "pyproject.toml": "d27b1fa8acae2aacf0e9f079c0676a8160a26744b90b651584264129d5d769d4",
+    "scripts/checkpoint.py": "56689f02ce95a3711df1a5196475e102a404d928967fc78926b74ea8bb933b15",
+    "stage1/modal_app.py": "7ca8e42e3d38ec3734fa364f6089b0861cd581cf6df01d14c21b4d262d3f6449",
+    "uv.lock": "6ee28ef140f8eaf63b2041f97c6d0a058ab1dc02ce92a6dc572d1d851ac14e18"
+  },
+  "reason": "First Modal image build rejected the prior lock with --locked before any validation or training. Explicitly scope supported platforms to Mac arm64 and Modal Linux x86_64, require Linux wheels, and regenerate the lock while preserving all installed package versions. Keep --locked and add verbose resolver diagnostics. Also serialize automatic/manual continuation checkpoint writes with a file lock. The exact original platform-lock rejection cause is not yet isolated; the revised Linux build remains to be verified.",
+  "removed_package_versions": [
+    [
+      "colorama",
+      "0.4.6"
+    ],
+    [
+      "httpx2-jsfetch",
+      "1.0"
+    ]
+  ],
+  "scientific_changes": false,
+  "timestamp_utc": "2026-10-28T03:20:36.894855+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "budget-only-stage3-amendment",
+  "created_utc": "2026-10-29T14:25:26.491115+00:00",
+  "approval_seq": 34,
+  "stage": 3,
+  "previous_limit_usd": "10",
+  "limit_usd": "15",
+  "prelaunch_projected_guard_review_threshold_usd": "13",
+  "scientific_changes": false,
+  "rule": "Stop before a reservation crosses15USD. Allprechecks,failedattempts,retries,controllerandtrackingservicecount. Ifprojectedprelaunchguardpeak exceeds13USD,stop/reportbefore scientificlaunch.",
+  "prior_registration": "preregistration/stage2-draft.md",
+  "prior_files_edited": false
+}

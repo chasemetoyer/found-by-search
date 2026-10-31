@@ -1,0 +1,24 @@
+[project]
+name = "agents"
+version = "0.1.0"
+description = "Intrinsic motivation and reward hacking experiments: PPO vs PPO+RND vs PPO+learning-progress on MiniGrid"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "gymnasium>=1.1",
+    "minigrid>=3.0",
+    "numpy",
+    "torch>=2.4",
+    "trackio",
+]
+
+[tool.uv]
+package = false
+
+# CPU-only torch on Linux: MiniGrid PPO is env-bound, and this keeps remote installs small.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

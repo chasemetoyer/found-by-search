@@ -1,0 +1,164 @@
+{
+ "stage1-amendment-20261028T032036Z": {
+  "path": "preregistration/stage1-amendment-20261028T032036Z.json",
+  "commit": "8f22e05",
+  "commit_time": "2026-10-27T23:20:36-04:00",
+  "first_public": {
+   "utc": "2026-10-28T03:20:38Z",
+   "evidence": "feed"
+  }
+ },
+ "stage1-amendment-20261028T032433Z": {
+  "path": "preregistration/stage1-amendment-20261028T032433Z.json",
+  "commit": "b34b2c4",
+  "commit_time": "2026-10-27T23:24:33-04:00",
+  "first_public": {
+   "utc": "2026-10-28T03:24:34Z",
+   "evidence": "feed"
+  }
+ },
+ "stage1-amendment-20261028T033052Z": {
+  "path": "preregistration/stage1-amendment-20261028T033052Z.json",
+  "commit": "196c525",
+  "commit_time": "2026-10-27T23:30:52-04:00",
+  "first_public": {
+   "utc": "2026-10-28T03:30:53Z",
+   "evidence": "feed"
+  }
+ },
+ "stage1-amendment-20261028T034510Z": {
+  "path": "preregistration/stage1-amendment-20261028T034510Z.json",
+  "commit": "373ce9f",
+  "commit_time": "2026-10-28T00:23:25-04:00",
+  "first_public": {
+   "utc": "2026-10-28T04:23:26Z",
+   "evidence": "feed"
+  }
+ },
+ "stage1-amendment-20261028T043622Z": {
+  "path": "preregistration/stage1-amendment-20261028T043622Z.json",
+  "commit": "69f50f3",
+  "commit_time": "2026-10-28T00:36:43-04:00",
+  "first_public": {
+   "utc": "2026-10-28T04:36:45Z",
+   "evidence": "feed"
+  }
+ },
+ "stage2-dashboard-amendment-20261028T161947Z": {
+  "path": "preregistration/stage2-dashboard-amendment-20261028T161947Z.json",
+  "commit": "b48e68b",
+  "commit_time": "2026-10-28T12:19:48-04:00",
+  "first_public": {
+   "utc": "2026-10-28T16:19:50Z",
+   "evidence": "feed"
+  }
+ },
+ "stage2-recovery-amendment-20261028": {
+  "path": "preregistration/stage2-recovery-amendment-20261028.json",
+  "commit": "739b3ad",
+  "commit_time": "2026-10-28T15:45:11-04:00",
+  "first_public": {
+   "utc": "2026-10-28T19:45:13Z",
+   "evidence": "feed"
+  }
+ },
+ "stage2-recovery2-amendment-20261028": {
+  "path": "preregistration/stage2-recovery2-amendment-20261028.json",
+  "commit": "c5541f8",
+  "commit_time": "2026-10-28T16:43:18-04:00",
+  "first_public": {
+   "utc": "2026-10-28T20:43:21Z",
+   "evidence": "feed"
+  }
+ },
+ "stage2-cloud-amendment-20261028": {
+  "path": "preregistration/stage2-cloud-amendment-20261028.json",
+  "commit": "d235a13",
+  "commit_time": "2026-10-28T17:23:14-04:00",
+  "first_public": {
+   "utc": "2026-10-28T21:23:17Z",
+   "evidence": "feed"
+  }
+ },
+ "stage2-budget50-amendment-20261028": {
+  "path": "preregistration/stage2-budget50-amendment-20261028.json",
+  "commit": "3cfaa88",
+  "commit_time": "2026-10-28T18:15:55-04:00",
+  "first_public": {
+   "utc": "2026-10-28T22:15:56Z",
+   "evidence": "feed"
+  }
+ },
+ "stage2-mac-resume-amendment-20261028": {
+  "path": "preregistration/stage2-mac-resume-amendment-20261028.json",
+  "commit": "3cfaa88",
+  "commit_time": "2026-10-28T18:15:55-04:00",
+  "first_public": {
+   "utc": "2026-10-28T22:15:56Z",
+   "evidence": "feed"
+  }
+ },
+ "stage3-budget15-amendment-20261029": {
+  "path": "preregistration/stage3-budget15-amendment-20261029.json",
+  "commit": "7b15f3a",
+  "commit_time": "2026-10-29T10:27:03-04:00",
+  "first_public": {
+   "utc": "2026-10-29T15:06:14Z",
+   "evidence": "receipt"
+  }
+ },
+ "stage3-prelaunch-update-20261029": {
+  "path": "preregistration/stage3-prelaunch-update-20261029.json",
+  "commit": "5c5c406",
+  "commit_time": "2026-10-29T10:29:58-04:00",
+  "first_public": {
+   "utc": "2026-10-29T15:06:14Z",
+   "evidence": "receipt"
+  }
+ },
+ "stage3-prelaunch-hardening-20261029": {
+  "path": "preregistration/stage3-prelaunch-hardening-20261029.json",
+  "commit": "490cf87",
+  "commit_time": "2026-10-29T11:06:14-04:00",
+  "first_public": {
+   "utc": "2026-10-29T15:06:14Z",
+   "evidence": "receipt"
+  }
+ },
+ "stage3-guardian-name-amendment-20261029": {
+  "path": "preregistration/stage3-guardian-name-amendment-20261029.json",
+  "commit": "44198cf",
+  "commit_time": "2026-10-29T11:47:29-04:00",
+  "first_public": {
+   "utc": "2026-10-29T15:57:35Z",
+   "evidence": "receipt"
+  }
+ },
+ "stage3-web-concurrency-amendment-20261029": {
+  "path": "preregistration/stage3-web-concurrency-amendment-20261029.json",
+  "commit": "cd79ce5",
+  "commit_time": "2026-10-29T11:57:35-04:00",
+  "first_public": {
+   "utc": "2026-10-29T15:57:35Z",
+   "evidence": "receipt"
+  }
+ },
+ "stage3-descriptive-amendment-20261029": {
+  "path": "preregistration/stage3-descriptive-amendment-20261029.md",
+  "commit": "7b15f3a",
+  "commit_time": "2026-10-29T10:27:03-04:00",
+  "first_public": {
+   "utc": "2026-10-29T15:06:14Z",
+   "evidence": "receipt"
+  }
+ },
+ "stage3-exploratory-analysis-plan": {
+  "path": "preregistration/stage3-exploratory-analysis-plan.md",
+  "commit": "7b15f3a",
+  "commit_time": "2026-10-29T10:27:03-04:00",
+  "first_public": {
+   "utc": "2026-10-29T15:06:14Z",
+   "evidence": "receipt"
+  }
+ }
+}

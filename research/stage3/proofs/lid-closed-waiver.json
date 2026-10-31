@@ -1,0 +1,9 @@
+{
+  "status": "WAIVED_UNVERIFIED",
+  "waiver_scope": "lid_closed_smoke_witness_only",
+  "actual_lid_closed_verified": false,
+  "explicit_user_confirmation": false,
+  "approval_seq": 36,
+  "user_quote": "it wasn\u2019t, but it doesnt matter just go ahead and proceed it proboaly worked",
+  "worker_smoke_run_id": "f23220df-d501-4cde-8dbd-4c9d1bf8840e"
+}

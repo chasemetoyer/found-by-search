@@ -1,0 +1,6 @@
+{
+  "phase": "verify",
+  "controller_timeout_seconds": 43200,
+  "monetary_cap_enabled": false,
+  "auto_restart": false
+}

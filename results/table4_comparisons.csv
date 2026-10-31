@@ -1,0 +1,10 @@
+group,Task,Test,Mean gap,U,Raw p,Holm p,Rank test,Meaningful,Fisher p
+"Primary family, held-out task (Holm, m=3)",KeyCorridorS3R2,E > T,+0.452,400.0,5e-6,1e-5,hit,yes,0.053
+"Primary family, held-out task (Holm, m=3)",KeyCorridorS3R2,E > N,+0.393,400.0,7.3e-12,2.2e-11,hit,yes,0.053
+"Primary family, held-out task (Holm, m=3)",KeyCorridorS3R2,E > R,+0.159,329.0,0.00015,0.00015,hit,yes,0.053
+"Secondary family, training tasks (Holm, m=6)",DoorKey-8x8,E > T,+0.551,389.0,1.4e-9,8.5e-9,hit,yes,2.3e-5
+"Secondary family, training tasks (Holm, m=6)",DoorKey-8x8,E > N,+0.234,358.0,2.1e-6,1e-5,hit,yes,0.115
+"Secondary family, training tasks (Holm, m=6)",DoorKey-8x8,E > R,-0.031,124.0,0.981,0.981,miss,no,1.000
+"Secondary family, training tasks (Holm, m=6)",UnlockPickup,E > T,+0.346,399.0,5e-6,2e-5,hit,yes,0.002
+"Secondary family, training tasks (Holm, m=6)",UnlockPickup,E > N,+0.342,396.0,5e-6,2e-5,hit,yes,0.002
+"Secondary family, training tasks (Holm, m=6)",UnlockPickup,E > R,+0.055,233.0,0.192,0.383,miss,no,0.078

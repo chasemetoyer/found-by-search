@@ -1,0 +1,12 @@
+{
+  "cma": {
+    "candidate": 113,
+    "sha256": "e3ec0a9f6b76cdc3a7c2c3da58ce8895b21b238c94db705ac4402d348d5e1fdc",
+    "status": "PASS"
+  },
+  "random": {
+    "candidate": 57,
+    "sha256": "f197a64443341b6776433bd34c5a114023152ff7698abd07180e664b374bb000",
+    "status": "PASS"
+  }
+}

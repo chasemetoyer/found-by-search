@@ -1,0 +1,12 @@
+{
+  "schema": "stage3-explicit-launch-approval-v1",
+  "scientific_launch_authorized": true,
+  "approval_seq": 37,
+  "approval_log": {
+    "path": "handoff-cross-platform/approvals-log.jsonl",
+    "sha256": "dc2840d75dbfca1acbe4e3996caeb690751e84d83a9c286cd228edaf39077483"
+  },
+  "prelaunch_receipt_sha256": "478c6186205edc56dfdb23a5d8131fd8e6f8417f0feb1414e479c468a33209ed",
+  "recorded_utc": "2026-10-29T16:05:09.102179+00:00",
+  "scope": "OneLinuxModalStage3scientificcontroller; originalregisteredtests/seeds/winnersunchanged. Allpostsummaryrepairsinfrastructureonly."
+}

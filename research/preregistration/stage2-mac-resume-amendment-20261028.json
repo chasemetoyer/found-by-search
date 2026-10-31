@@ -1,0 +1,43 @@
+{
+  "schema": "stage2-mac-controller-resume-amendment",
+  "approval_seq": 32,
+  "created_utc": "2026-10-28T22:11:22.167649+00:00",
+  "scientific_changes": false,
+  "prior_cloud_amendment_sha256": "e056fde1d1053af9f8dc53b525bea1e4a990ce1080a7d95ea5e0d69033f97e1e",
+  "budget_amendment_sha256": "60323afbf100ed6bf8935d72616d3c8a2d3dde894badbb96c30e253dbaab899a",
+  "implementation_sha256": {
+    "scripts/run_stage1.sh": "04144baa77e1064cdd851a1b093483234352df491d1130ca06e3e28b47ca4afb",
+    "stage2/controller.py": "8fd7959dce0bd4f9b30d577667a46b97b3861599d9c8553b381f2c34fe9cf6c2",
+    "stage2/registration.py": "fabe3958d3d374f7cabde208760a25fb2b0b50b95159944ca5cb8dd96918a7eb"
+  },
+  "added_file_sha256": {
+    "stage2/mac.py": "3ad00d24cdab4856c7336c36159c49ff655ae4622f857a88a992bd04679f0471",
+    "scripts/stage2_mac_preflight.py": "9b908d018d7d0840057afffbe6501b9c5f11a9027857be76f2ebd67d280a260f",
+    "tests/test_stage2_mac.py": "36b11d08ecac68ddf5e8515e576030e0aaab621404ee11329925c601b18f44af"
+  },
+  "original_ledger_canonical_sha256": "4d813a81d5d9e74373f46ccce2041103b8a1462c7a47d6b0824e685bf4d61ede",
+  "original_budget_fields": {
+    "limit_usd": "35",
+    "limit_amendments": [
+      {
+        "authorization": "User approval: Stage-2 cap $35. Keep the 3,600 s deadline and 10 finalist seeds.",
+        "limit_usd": "35",
+        "previous_limit_usd": "30",
+        "utc": "2026-10-28T14:11:41.244229+00:00"
+      }
+    ],
+    "updated_utc": "2026-10-28T20:22:59.651986+00:00",
+    "guard_total_usd": "12.5859942911438989529760"
+  },
+  "allowed_accounting_fields": [
+    "limit_usd",
+    "limit_amendments",
+    "updated_utc",
+    "guard_total_usd",
+    "cap_restore_approval",
+    "monetary_cap_enabled",
+    "controller_sessions"
+  ],
+  "previous_results_directory": "<openresearch>/local-runs/13b2db55-d617-48f4-8c3e-78093f0be19a/repo/results",
+  "policy": "Originalarm64Mac controller only; all PPO remainsModal. Require currentproviderledger cap50, exact528spec replay andzero completedduplicates incl4recoverablesuccesses beforeonetackedrestart. No bypassofLinux mismatch, no scientificchanges. Retain everyinput/providercharge,including two0.10nativeSandboxdiagnosticallowances."
+}

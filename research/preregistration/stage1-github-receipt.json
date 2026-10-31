@@ -1,0 +1,10 @@
+{
+  "corroboration": "Observed GitHub branch ref and server repository pushed_at; not author-time-only.",
+  "github_pushed_at": "2026-10-28T03:12:24Z",
+  "github_ref_commit": "d85a7ea35c92a75ae6853fc8a48c4d2ba4868fb6",
+  "lock_commit": "d85a7ea35c92a75ae6853fc8a48c4d2ba4868fb6",
+  "lock_manifest_sha256": "01a424bbf34353cb1f3364378f9cca140a542232ff2c71bb906ad6a4f6039ac8",
+  "private": true,
+  "repository": "https://github.com/chasemetoyer/evolved-intrinsic-rewards",
+  "retrieved_at_utc": "2026-10-28T03:13:13.825698+00:00"
+}

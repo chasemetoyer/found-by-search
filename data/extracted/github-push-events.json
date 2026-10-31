@@ -1,0 +1,223 @@
+{
+ "retrieved_utc": "2026-10-30T00:33:41.078505+00:00",
+ "url": "https://api.github.com/repos/chasemetoyer/evolved-intrinsic-rewards/events?per_page=100",
+ "note": "Public GitHub event feed as returned; only PushEvent fields kept.",
+ "push_events": [
+  {
+   "created_at": "2026-10-28T22:15:56Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "3cfaa8833cddde15185691951088595adc53e155",
+   "before": "07cb1a2f66468e8736e2f3672ef0746e592006e9"
+  },
+  {
+   "created_at": "2026-10-28T22:17:10Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "2b24daa20ef8755d5ac1c3771d3f77f76f0bb7e2",
+   "before": "3cfaa8833cddde15185691951088595adc53e155"
+  },
+  {
+   "created_at": "2026-10-28T21:46:21Z",
+   "ref": "refs/heads/orx/read-only-mac-linux-input-specification-diagnosi",
+   "head": "de75a8e49c6b06ca9e57c63dcfed48545f5079f5",
+   "before": "f735d8dbced940303e32f155f08dbcf9fffce1c8"
+  },
+  {
+   "created_at": "2026-10-28T22:22:04Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "7febba7d1c05edcab65275d1eaa67a4c6ae542a2",
+   "before": "3fa9ca819fc0f68b877569dd76439d4342c722a8"
+  },
+  {
+   "created_at": "2026-10-28T21:55:25Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "07cb1a2f66468e8736e2f3672ef0746e592006e9",
+   "before": "f735d8dbced940303e32f155f08dbcf9fffce1c8"
+  },
+  {
+   "created_at": "2026-10-28T20:43:21Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "c5541f8d084f2a31fc20dd391af45eeddc9b253b",
+   "before": "1edc267a54098e0e6e07f839bf5059d80ed73152"
+  },
+  {
+   "created_at": "2026-10-28T21:05:19Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "f6013fe8ee42560b4d2977d62f64927b5cd33be4",
+   "before": "c5541f8d084f2a31fc20dd391af45eeddc9b253b"
+  },
+  {
+   "created_at": "2026-10-28T21:33:19Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "f735d8dbced940303e32f155f08dbcf9fffce1c8",
+   "before": "11cbe98286126f0aa7d045a5c625a8c7c344e899"
+  },
+  {
+   "created_at": "2026-10-28T21:23:17Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "d235a13659692ca5a00ebd01c3b3de27226ecfb1",
+   "before": "f6013fe8ee42560b4d2977d62f64927b5cd33be4"
+  },
+  {
+   "created_at": "2026-10-28T20:26:44Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "1edc267a54098e0e6e07f839bf5059d80ed73152",
+   "before": "c3387aacdb04881ef39ca6e04ff8003e40f49373"
+  },
+  {
+   "created_at": "2026-10-28T03:12:24Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "d85a7ea35c92a75ae6853fc8a48c4d2ba4868fb6",
+   "before": "b3b2b96782595adff6897ab38a0b05e1a1e02a1f"
+  },
+  {
+   "created_at": "2026-10-28T19:45:13Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "739b3ad32becfb55c2fcd4ce699a1aeaaba7b42d",
+   "before": "5383ef70b1ab073d5da9c7c3f1709a6814660b64"
+  },
+  {
+   "created_at": "2026-10-28T19:47:37Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "36986e8ac8d3dcd0c0e09a37c1c13b8b3680381a",
+   "before": "739b3ad32becfb55c2fcd4ce699a1aeaaba7b42d"
+  },
+  {
+   "created_at": "2026-10-28T02:39:00Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "e166db666775c70e6940f65bb01025fa3cff588d",
+   "before": "26c14faf193a4bd21388b0f4673ace0d712aee71"
+  },
+  {
+   "created_at": "2026-10-28T02:12:11Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "26c14faf193a4bd21388b0f4673ace0d712aee71",
+   "before": "e2fb8661be4306f36af9a362b265de6555457cb3"
+  },
+  {
+   "created_at": "2026-10-28T13:28:21Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "ca8ce9777e108de752d5b30a880c039d76a9e4ce",
+   "before": "1c714b47aad3be4be5d2643a1610cc00237967f0"
+  },
+  {
+   "created_at": "2026-10-28T16:28:15Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "ce667f153f8d90867dc70c512f6e507cc5f5aac8",
+   "before": "b48e68b96ddca0cda048af7298c85449a6f6adda"
+  },
+  {
+   "created_at": "2026-10-28T16:19:50Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "b48e68b96ddca0cda048af7298c85449a6f6adda",
+   "before": "7cbd020b70f9e1e6055783745ed526916f2449c2"
+  },
+  {
+   "created_at": "2026-10-28T14:32:55Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "7cbd020b70f9e1e6055783745ed526916f2449c2",
+   "before": "b94171f2cfe10d4dc1476bcc1bafcda33d90ef59"
+  },
+  {
+   "created_at": "2026-10-28T14:29:29Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "f75769211c5b05201234827325a9f2bf5a987d44",
+   "before": "ae53fdd64abb734f20f3d4f5062c4ba2660573b3"
+  },
+  {
+   "created_at": "2026-10-28T13:20:11Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "1c714b47aad3be4be5d2643a1610cc00237967f0",
+   "before": "45f80a30eadf5e426ef8300fc41e1690502cc56d"
+  },
+  {
+   "created_at": "2026-10-28T14:30:12Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "b94171f2cfe10d4dc1476bcc1bafcda33d90ef59",
+   "before": "f75769211c5b05201234827325a9f2bf5a987d44"
+  },
+  {
+   "created_at": "2026-10-28T14:11:14Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "ae53fdd64abb734f20f3d4f5062c4ba2660573b3",
+   "before": "ca8ce9777e108de752d5b30a880c039d76a9e4ce"
+  },
+  {
+   "created_at": "2026-10-28T10:59:07Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "c39f0c10eaec461d922ad42ad6ebdcd98019b31a",
+   "before": "6f93f52c3b5371e4d1d69c10536dffa1e313308f"
+  },
+  {
+   "created_at": "2026-10-28T13:08:59Z",
+   "ref": "refs/heads/orx/stage-2-cma-es-vs-equal-budget-random-search-2m",
+   "head": "45f80a30eadf5e426ef8300fc41e1690502cc56d",
+   "before": "613ef15afe891694759caa25596e7297738ea20d"
+  },
+  {
+   "created_at": "2026-10-28T12:56:12Z",
+   "ref": "refs/heads/orx/stage-2-pre-check-cpu-isa-pinning-determinism",
+   "head": "613ef15afe891694759caa25596e7297738ea20d",
+   "before": "c39f0c10eaec461d922ad42ad6ebdcd98019b31a"
+  },
+  {
+   "created_at": "2026-10-28T04:23:26Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "373ce9f081628a61da2e26e9704725c7b92963b7",
+   "before": "196c5257b76a4415b9b39235b61475002340e93e"
+  },
+  {
+   "created_at": "2026-10-28T03:30:53Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "196c5257b76a4415b9b39235b61475002340e93e",
+   "before": "66656f1a05069ac3b528811692e5b8dd116e1fc5"
+  },
+  {
+   "created_at": "2026-10-28T04:38:38Z",
+   "ref": "refs/heads/main",
+   "head": "228fe480bfd188eb44a91b6ad324bbd1c43d0d48",
+   "before": "e2fb8661be4306f36af9a362b265de6555457cb3"
+  },
+  {
+   "created_at": "2026-10-28T03:13:15Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "5e9435b44b159b726b26333cdd5f94e8c012779c",
+   "before": "d85a7ea35c92a75ae6853fc8a48c4d2ba4868fb6"
+  },
+  {
+   "created_at": "2026-10-28T03:26:29Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "66656f1a05069ac3b528811692e5b8dd116e1fc5",
+   "before": "b34b2c4b2600e8e653daf2227722cef0eb412684"
+  },
+  {
+   "created_at": "2026-10-28T03:24:34Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "b34b2c4b2600e8e653daf2227722cef0eb412684",
+   "before": "8f22e05e01896f296af43c72e761fdb4f84992a1"
+  },
+  {
+   "created_at": "2026-10-28T03:20:38Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "8f22e05e01896f296af43c72e761fdb4f84992a1",
+   "before": "5e9435b44b159b726b26333cdd5f94e8c012779c"
+  },
+  {
+   "created_at": "2026-10-28T04:37:59Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "6f93f52c3b5371e4d1d69c10536dffa1e313308f",
+   "before": "69f50f3da216538d7690d59e40e3d3df5d1476de"
+  },
+  {
+   "created_at": "2026-10-28T04:36:45Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "69f50f3da216538d7690d59e40e3d3df5d1476de",
+   "before": "373ce9f081628a61da2e26e9704725c7b92963b7"
+  },
+  {
+   "created_at": "2026-10-28T03:08:32Z",
+   "ref": "refs/heads/orx/stage-1-infrastructure-and-calibration",
+   "head": "b3b2b96782595adff6897ab38a0b05e1a1e02a1f",
+   "before": "e166db666775c70e6940f65bb01025fa3cff588d"
+  }
+ ]
+}

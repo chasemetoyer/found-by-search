@@ -1,0 +1,61 @@
+{
+  "schema": "stage3-prelaunch-receipt-v1",
+  "proofs": {
+    "source_inventory": {
+      "path": "preregistration/stage3-runtime-manifest.json",
+      "sha256": "3b9482892ebfd8e7b8c38b276038e9971c59da8b74f7c5d45acc7e8b8a796347"
+    },
+    "worker_inventory": {
+      "path": "stage3/proofs/worker-inventory.json",
+      "sha256": "39a17c411eea869ce594cb9a9ee9490596d702c3f73593414a3fbdccf79bb529"
+    },
+    "worker_smoke": {
+      "path": "stage3/proofs/worker-smoke.json",
+      "sha256": "2bdefb635ca152867bb4926539cd5363993b103b6a0cee771f9715bd307fe20c"
+    },
+    "controller_validation": {
+      "path": "stage3/proofs/controller-validation.json",
+      "sha256": "b31d79f231489991bbc94d7ab8f19415bdc1cbac0ca65c8261fc8905a52da2a8"
+    },
+    "mac_decode": {
+      "path": "stage3/proofs/mac-decode.json",
+      "sha256": "dd1986de32024c3163e1e9e4efe0a105f21ad131670ea0a71f0ad03836dbf544"
+    },
+    "linux_decode": {
+      "path": "stage3/proofs/linux-decode.json",
+      "sha256": "2b0db6a6cd8517b4dd93ca2cf1108fb9d3a54da1a816f22edd025221bef03e4b"
+    },
+    "lid_closed": {
+      "path": "stage3/proofs/lid-closed-waiver.json",
+      "sha256": "e2b9dedd1a5bf6d8f570b54dbcb9f1f056110262695425b427a5b16151d5abc8"
+    },
+    "cost_projection": {
+      "path": "stage3/proofs/cost-projection.json",
+      "sha256": "59e236b807f5b17cd5406d78ec4271918d5a696799e3cf9c59076d002807849f"
+    },
+    "visualize": {
+      "path": "stage3/proofs/visualize.json",
+      "sha256": "788d3fa595d00212bbbe061adf6970adab44c602ccf4cb18efd1569bfebf1832"
+    },
+    "amendment_commit": {
+      "path": "stage3/proofs/amendment-commit.json",
+      "sha256": "95594916fec28ff49f4d79133a4adb8b4adea23e1c22b78c9e1835c7831a1462"
+    },
+    "summary": {
+      "path": "stage3/prelaunch-summary.md",
+      "sha256": "1eb75a79552ab5301b09a06f2f2fb692c4521267c3e9c5c8c0061d48b5566721"
+    }
+  },
+  "summary_delivered_utc": "2026-10-29T15:27:55.833008+00:00",
+  "summary_items": [
+    "hash_verification",
+    "cost_and_cap",
+    "mac_linux_decode",
+    "lid_closed_smoke",
+    "amendment_commit",
+    "native_visualize"
+  ],
+  "summary_delivery_context": "Six-item pre-launch summary prepared and delivered in the current chat response; no scientific go-ahead recorded. A future approval must be separate and later than this timestamp.",
+  "post_summary_cost_refresh_utc": "2026-10-29T15:35:23.368003+00:00",
+  "post_summary_infrastructure_revalidated_utc": "2026-10-29T16:05:09.101109+00:00"
+}

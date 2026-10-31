@@ -1,0 +1,12 @@
+{
+  "schema": "stage2-budget-only-amendment",
+  "approval_seq": 32,
+  "created_utc": "2026-10-28T22:11:22.167203+00:00",
+  "budget_only": true,
+  "scientific_changes": false,
+  "limit_usd": "50",
+  "implementation_sha256": {
+    "stage2/budget.py": "8c52682c9b2a1b62f081890888f6fb788541c35686ba7cd139500d5228ed39b1"
+  },
+  "changes": "Restore unconditional50USD reservation/setup/total guard checks; retain all prior calls/fees. No PPO/search/scoring changes."
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "stage3-prelaunch-infrastructure-update",
+  "created_utc": "2026-10-29T14:29:56.950113+00:00",
+  "approval_seq": 34,
+  "scientific_changes": false,
+  "prior_inventory_sha256": "4397f984a76cc41494dfdeab9effabd09cc53f5f05f596bbc3b58cd711a996a7",
+  "inventory_sha256": "39a17c411eea869ce594cb9a9ee9490596d702c3f73593414a3fbdccf79bb529",
+  "reason": "BeforefirstModalvalidation: include finaltrackingfailurepanel,allphysicalattemptCPUmix,isolatedobservercacheandcontrollerresourceprobe. No originallockedfileschanged."
+}

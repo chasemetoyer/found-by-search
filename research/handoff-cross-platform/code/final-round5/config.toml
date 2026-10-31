@@ -1,0 +1,45 @@
+# Single source of truth for one experiment node.
+# Child branches change values here (and code in intrinsic.py); the run command never changes.
+
+[run]
+seeds = [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+total_timesteps = 2_000_000  # env steps per seed
+log_every_updates = 10
+
+[env]
+id = "MiniGrid-KeyCorridorS3R1-v0"
+num_envs = 16
+# Generalization: evaluated after training on fresh layouts, same size and a larger size.
+eval_ids = ["MiniGrid-KeyCorridorS3R1-v0"]
+eval_episodes = 64
+early_goal_frac = 0.0            # early-goal intervention: share of episodes started in the goal room
+early_goal_steps = 0             # ... for this many env steps
+eval_every_updates = 0           # >0: evaluation curve on every eval env every N updates (eval_curve.jsonl)
+eval_curve_episodes = 16         # episodes per eval env per curve point (one per parallel env)
+
+[ppo]
+num_steps = 128                  # rollout length per env -> batch = num_envs * num_steps
+learning_rate = 2.5e-4
+anneal_lr = true
+gamma = 0.99
+gae_lambda = 0.95
+num_minibatches = 4
+update_epochs = 4
+clip_coef = 0.2
+ent_coef = 0.01
+vf_coef = 0.5
+max_grad_norm = 0.5
+norm_adv = true  # per-minibatch advantage normalization
+
+[intrinsic]
+# "none" | "homeostatic" (Agent 3: satiation) | "event_bonus" (control: same events, no satiation) | "episodic_count"
+kind = "none"
+coef = 1.0                       # PPO trains on r_ext + coef * r_int
+# needs, in order: explore (new 7x7 view this episode), grasp (pick up), open (door/box changes)
+h0 = 0.5                         # every need starts each episode half-deprived; setpoint is 0
+growth = [0.00625, 0.00625, 0.00625]  # per-step need build-up
+satiety = [0.1, 1.0, 1.0]        # how much one event relieves each need
+pay_once = false          # control only: grasp/open pay once per episode
+needs_on = [1, 1, 1]             # mask of active needs (explore, grasp, open); [1, 0, 0] = explore only
+tamper = false  # the done action sets every need to 0
+event_mode = "locked_door_key"  # round 5, Part C: grasp = key pick-up, open = initially locked door opens

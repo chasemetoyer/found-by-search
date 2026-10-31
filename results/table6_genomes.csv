@@ -1,0 +1,9 @@
+group,Reward,Event,Weight,Relief,Growth per step,Steps per full refill,Spent by one event
+,E,new_view,0.554,0.928,0.0039,258,no
+,,pickup,0.632,0.633,0,--,yes
+,,drop,0.966,0.564,0,--,yes
+,,toggle,0.406,0.690,0,--,yes
+,R,new_view,0.368,0.803,0.0086,117,no
+,,pickup,0.039,0.483,0,--,no
+,,drop,-0.106,0.014,0.0027,367,no
+,,toggle,0.399,0.966,0,--,yes

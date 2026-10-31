@@ -1,0 +1,190 @@
+stratum,target,feature,subset,n,rho,status
+pooled,combined,any_object_channel_positive_weight_and_refill,all candidates,240,-0.14987782566219957,defined
+pooled,combined,refill_rate/drop,all candidates,240,-0.25619846856612305,defined
+pooled,combined,refill_rate/new_view,all candidates,240,-0.3061640166396428,defined
+pooled,combined,refill_rate/pickup,all candidates,240,-0.3856416718272775,defined
+pooled,combined,refill_rate/toggle,all candidates,240,-0.32911494147990034,defined
+pooled,combined,refill_zero/drop,all candidates,240,0.2225168476741845,defined
+pooled,combined,refill_zero/new_view,all candidates,240,0.27283471662058517,defined
+pooled,combined,refill_zero/pickup,all candidates,240,0.3795135312451683,defined
+pooled,combined,refill_zero/toggle,all candidates,240,0.2983309462350012,defined
+pooled,combined,relief/drop,all candidates,240,0.2466145604482578,defined
+pooled,combined,relief/new_view,all candidates,240,0.07692753415718394,defined
+pooled,combined,relief/pickup,all candidates,240,0.0913901032914591,defined
+pooled,combined,relief/toggle,all candidates,240,0.2639126976673509,defined
+pooled,combined,weight/drop,all candidates,240,0.2658654331355273,defined
+pooled,combined,weight/new_view,all candidates,240,0.3168006215466031,defined
+pooled,combined,weight/pickup,all candidates,240,0.3741968946830119,defined
+pooled,combined,weight/toggle,all candidates,240,0.5256747386899333,defined
+pooled,combined,refill_rate/new_view,positive refill only,74,-0.32925023395213693,defined
+pooled,combined,refill_rate/pickup,positive refill only,104,-0.12394507458844115,defined
+pooled,combined,refill_rate/drop,positive refill only,94,-0.254341190324157,defined
+pooled,combined,refill_rate/toggle,positive refill only,84,-0.28416810944161175,defined
+pooled,DoorKey-8x8,any_object_channel_positive_weight_and_refill,all candidates,240,-0.11120779023525433,defined
+pooled,DoorKey-8x8,refill_rate/drop,all candidates,240,-0.23012688067330483,defined
+pooled,DoorKey-8x8,refill_rate/new_view,all candidates,240,-0.323833226286242,defined
+pooled,DoorKey-8x8,refill_rate/pickup,all candidates,240,-0.36067577810255164,defined
+pooled,DoorKey-8x8,refill_rate/toggle,all candidates,240,-0.2637303614168777,defined
+pooled,DoorKey-8x8,refill_zero/drop,all candidates,240,0.2037315578479624,defined
+pooled,DoorKey-8x8,refill_zero/new_view,all candidates,240,0.29263591791248117,defined
+pooled,DoorKey-8x8,refill_zero/pickup,all candidates,240,0.3615587205522117,defined
+pooled,DoorKey-8x8,refill_zero/toggle,all candidates,240,0.22885960744250333,defined
+pooled,DoorKey-8x8,relief/drop,all candidates,240,0.20940665834611139,defined
+pooled,DoorKey-8x8,relief/new_view,all candidates,240,0.0025921263952537812,defined
+pooled,DoorKey-8x8,relief/pickup,all candidates,240,0.1267685229823526,defined
+pooled,DoorKey-8x8,relief/toggle,all candidates,240,0.2345561874140609,defined
+pooled,DoorKey-8x8,weight/drop,all candidates,240,0.12183211081001148,defined
+pooled,DoorKey-8x8,weight/new_view,all candidates,240,0.25857936551153426,defined
+pooled,DoorKey-8x8,weight/pickup,all candidates,240,0.39328312874138016,defined
+pooled,DoorKey-8x8,weight/toggle,all candidates,240,0.5240965321452615,defined
+pooled,DoorKey-8x8,refill_rate/new_view,positive refill only,74,-0.32914212954277505,defined
+pooled,DoorKey-8x8,refill_rate/pickup,positive refill only,104,-0.09983488065171821,defined
+pooled,DoorKey-8x8,refill_rate/drop,positive refill only,94,-0.21707700455219328,defined
+pooled,DoorKey-8x8,refill_rate/toggle,positive refill only,84,-0.25116952736098713,defined
+pooled,UnlockPickup,any_object_channel_positive_weight_and_refill,all candidates,240,-0.01319074598725466,defined
+pooled,UnlockPickup,refill_rate/drop,all candidates,240,-0.22682228948787628,defined
+pooled,UnlockPickup,refill_rate/new_view,all candidates,240,-0.25858285260541153,defined
+pooled,UnlockPickup,refill_rate/pickup,all candidates,240,-0.23384181598380654,defined
+pooled,UnlockPickup,refill_rate/toggle,all candidates,240,-0.35495309312631,defined
+pooled,UnlockPickup,refill_zero/drop,all candidates,240,0.19298244213558344,defined
+pooled,UnlockPickup,refill_zero/new_view,all candidates,240,0.22484786157115785,defined
+pooled,UnlockPickup,refill_zero/pickup,all candidates,240,0.22437113083036667,defined
+pooled,UnlockPickup,refill_zero/toggle,all candidates,240,0.3148050860108287,defined
+pooled,UnlockPickup,relief/drop,all candidates,240,0.2775673817727771,defined
+pooled,UnlockPickup,relief/new_view,all candidates,240,0.14927345283800122,defined
+pooled,UnlockPickup,relief/pickup,all candidates,240,0.06876841475515531,defined
+pooled,UnlockPickup,relief/toggle,all candidates,240,0.21938153179433215,defined
+pooled,UnlockPickup,weight/drop,all candidates,240,0.5501194989273959,defined
+pooled,UnlockPickup,weight/new_view,all candidates,240,0.24503162410821028,defined
+pooled,UnlockPickup,weight/pickup,all candidates,240,0.40711186680968875,defined
+pooled,UnlockPickup,weight/toggle,all candidates,240,0.4127752298457422,defined
+pooled,UnlockPickup,refill_rate/new_view,positive refill only,74,-0.33909990002907314,defined
+pooled,UnlockPickup,refill_rate/pickup,positive refill only,104,-0.09162799043573773,defined
+pooled,UnlockPickup,refill_rate/drop,positive refill only,94,-0.24749442774136715,defined
+pooled,UnlockPickup,refill_rate/toggle,positive refill only,84,-0.4078006327941243,defined
+cma,combined,any_object_channel_positive_weight_and_refill,all candidates,120,-0.20641003256806614,defined
+cma,combined,refill_rate/drop,all candidates,120,-0.2929695294724529,defined
+cma,combined,refill_rate/new_view,all candidates,120,-0.10409579936616288,defined
+cma,combined,refill_rate/pickup,all candidates,120,-0.4019210346932607,defined
+cma,combined,refill_rate/toggle,all candidates,120,-0.31692677762470167,defined
+cma,combined,refill_zero/drop,all candidates,120,0.27127347818239395,defined
+cma,combined,refill_zero/new_view,all candidates,120,0.09076138733500354,defined
+cma,combined,refill_zero/pickup,all candidates,120,0.3888788833496523,defined
+cma,combined,refill_zero/toggle,all candidates,120,0.2777874233418822,defined
+cma,combined,relief/drop,all candidates,120,0.267664421140357,defined
+cma,combined,relief/new_view,all candidates,120,0.17883880825057297,defined
+cma,combined,relief/pickup,all candidates,120,0.09482602958538787,defined
+cma,combined,relief/toggle,all candidates,120,0.06727550524341969,defined
+cma,combined,weight/drop,all candidates,120,0.41828599208278355,defined
+cma,combined,weight/new_view,all candidates,120,0.16960205569831238,defined
+cma,combined,weight/pickup,all candidates,120,0.19612473088408916,defined
+cma,combined,weight/toggle,all candidates,120,0.5271477185915688,defined
+cma,combined,refill_rate/new_view,positive refill only,23,-0.20948616600790515,defined
+cma,combined,refill_rate/pickup,positive refill only,37,-0.2648174490279753,defined
+cma,combined,refill_rate/drop,positive refill only,33,-0.2620320855614973,defined
+cma,combined,refill_rate/toggle,positive refill only,30,-0.5875417130144606,defined
+cma,DoorKey-8x8,any_object_channel_positive_weight_and_refill,all candidates,120,-0.13419091951824633,defined
+cma,DoorKey-8x8,refill_rate/drop,all candidates,120,-0.28496291975714877,defined
+cma,DoorKey-8x8,refill_rate/new_view,all candidates,120,-0.23821923316487273,defined
+cma,DoorKey-8x8,refill_rate/pickup,all candidates,120,-0.3881925532167292,defined
+cma,DoorKey-8x8,refill_rate/toggle,all candidates,120,-0.1732897182438622,defined
+cma,DoorKey-8x8,refill_zero/drop,all candidates,120,0.2669632739610252,defined
+cma,DoorKey-8x8,refill_zero/new_view,all candidates,120,0.2209443873508672,defined
+cma,DoorKey-8x8,refill_zero/pickup,all candidates,120,0.37689735044001804,defined
+cma,DoorKey-8x8,refill_zero/toggle,all candidates,120,0.12444876565716324,defined
+cma,DoorKey-8x8,relief/drop,all candidates,120,0.23098131814709355,defined
+cma,DoorKey-8x8,relief/new_view,all candidates,120,-0.042225154524619765,defined
+cma,DoorKey-8x8,relief/pickup,all candidates,120,0.20617403986387944,defined
+cma,DoorKey-8x8,relief/toggle,all candidates,120,0.114501007014376,defined
+cma,DoorKey-8x8,weight/drop,all candidates,120,0.11793180081950136,defined
+cma,DoorKey-8x8,weight/new_view,all candidates,120,-0.02242516841447323,defined
+cma,DoorKey-8x8,weight/pickup,all candidates,120,0.2672407806097646,defined
+cma,DoorKey-8x8,weight/toggle,all candidates,120,0.577026182373776,defined
+cma,DoorKey-8x8,refill_rate/new_view,positive refill only,23,-0.35177865612648224,defined
+cma,DoorKey-8x8,refill_rate/pickup,positive refill only,37,-0.24466571834992887,defined
+cma,DoorKey-8x8,refill_rate/drop,positive refill only,33,-0.26336898395721925,defined
+cma,DoorKey-8x8,refill_rate/toggle,positive refill only,30,-0.5363737486095662,defined
+cma,UnlockPickup,any_object_channel_positive_weight_and_refill,all candidates,120,-0.10102056619911635,defined
+cma,UnlockPickup,refill_rate/drop,all candidates,120,-0.2132806064375588,defined
+cma,UnlockPickup,refill_rate/new_view,all candidates,120,0.04368148912986421,defined
+cma,UnlockPickup,refill_rate/pickup,all candidates,120,-0.255215549656319,defined
+cma,UnlockPickup,refill_rate/toggle,all candidates,120,-0.34743840127155085,defined
+cma,UnlockPickup,refill_zero/drop,all candidates,120,0.19856119184649962,defined
+cma,UnlockPickup,refill_zero/new_view,all candidates,120,-0.0449273733899029,defined
+cma,UnlockPickup,refill_zero/pickup,all candidates,120,0.24799362652296508,defined
+cma,UnlockPickup,refill_zero/toggle,all candidates,120,0.3147686758886754,defined
+cma,UnlockPickup,relief/drop,all candidates,120,0.3006763404838416,defined
+cma,UnlockPickup,relief/new_view,all candidates,120,0.26433985530288046,defined
+cma,UnlockPickup,relief/pickup,all candidates,120,0.012550899115358269,defined
+cma,UnlockPickup,relief/toggle,all candidates,120,0.04059073294419133,defined
+cma,UnlockPickup,weight/drop,all candidates,120,0.6176681552465856,defined
+cma,UnlockPickup,weight/new_view,all candidates,120,0.17240642935330547,defined
+cma,UnlockPickup,weight/pickup,all candidates,120,0.21264293105517068,defined
+cma,UnlockPickup,weight/toggle,all candidates,120,0.40947395185239277,defined
+cma,UnlockPickup,refill_rate/new_view,positive refill only,23,-0.006923841171369566,defined
+cma,UnlockPickup,refill_rate/pickup,positive refill only,37,-0.12912788852170845,defined
+cma,UnlockPickup,refill_rate/drop,positive refill only,33,-0.18341416786450876,defined
+cma,UnlockPickup,refill_rate/toggle,positive refill only,30,-0.5916030723009156,defined
+random,combined,any_object_channel_positive_weight_and_refill,all candidates,120,0.09079302115682286,defined
+random,combined,refill_rate/drop,all candidates,120,-0.00907806154475297,defined
+random,combined,refill_rate/new_view,all candidates,120,-0.27406792820379333,defined
+random,combined,refill_rate/pickup,all candidates,120,-0.11334525851446817,defined
+random,combined,refill_rate/toggle,all candidates,120,-0.1611938144883529,defined
+random,combined,refill_zero/drop,all candidates,120,-0.034166712510402444,defined
+random,combined,refill_zero/new_view,all candidates,120,0.23968031644923973,defined
+random,combined,refill_zero/pickup,all candidates,120,0.17658668936191707,defined
+random,combined,refill_zero/toggle,all candidates,120,0.16441666596884477,defined
+random,combined,relief/drop,all candidates,120,-0.04818862913891559,defined
+random,combined,relief/new_view,all candidates,120,-0.00702844889941379,defined
+random,combined,relief/pickup,all candidates,120,0.06041896363680856,defined
+random,combined,relief/toggle,all candidates,120,-0.06778077770141194,defined
+random,combined,weight/drop,all candidates,120,-0.13323841690790894,defined
+random,combined,weight/new_view,all candidates,120,0.3040394483143154,defined
+random,combined,weight/pickup,all candidates,120,0.32585750386521306,defined
+random,combined,weight/toggle,all candidates,120,0.20856158147173529,defined
+random,combined,refill_rate/new_view,positive refill only,51,-0.22105549832959626,defined
+random,combined,refill_rate/pickup,positive refill only,67,0.1522849741509129,defined
+random,combined,refill_rate/drop,positive refill only,61,-0.14197130988911522,defined
+random,combined,refill_rate/toggle,positive refill only,54,-0.016238469173953374,defined
+random,DoorKey-8x8,any_object_channel_positive_weight_and_refill,all candidates,120,0.09300782144331919,defined
+random,DoorKey-8x8,refill_rate/drop,all candidates,120,-0.010056001605051443,defined
+random,DoorKey-8x8,refill_rate/new_view,all candidates,120,-0.2686936443519118,defined
+random,DoorKey-8x8,refill_rate/pickup,all candidates,120,-0.10022695605954099,defined
+random,DoorKey-8x8,refill_rate/toggle,all candidates,120,-0.146211127896167,defined
+random,DoorKey-8x8,refill_zero/drop,all candidates,120,-0.026951949792913887,defined
+random,DoorKey-8x8,refill_zero/new_view,all candidates,120,0.23484470330419568,defined
+random,DoorKey-8x8,refill_zero/pickup,all candidates,120,0.167403988395078,defined
+random,DoorKey-8x8,refill_zero/toggle,all candidates,120,0.15065456249368891,defined
+random,DoorKey-8x8,relief/drop,all candidates,120,-0.04924036604512206,defined
+random,DoorKey-8x8,relief/new_view,all candidates,120,-0.011297708474028922,defined
+random,DoorKey-8x8,relief/pickup,all candidates,120,0.05849247037183987,defined
+random,DoorKey-8x8,relief/toggle,all candidates,120,-0.07553106790445158,defined
+random,DoorKey-8x8,weight/drop,all candidates,120,-0.15210056643716466,defined
+random,DoorKey-8x8,weight/new_view,all candidates,120,0.29781773657083555,defined
+random,DoorKey-8x8,weight/pickup,all candidates,120,0.33341611095103735,defined
+random,DoorKey-8x8,weight/toggle,all candidates,120,0.20289684191861163,defined
+random,DoorKey-8x8,refill_rate/new_view,positive refill only,51,-0.21833531460529257,defined
+random,DoorKey-8x8,refill_rate/pickup,positive refill only,67,0.16286730777349154,defined
+random,DoorKey-8x8,refill_rate/drop,positive refill only,61,-0.1173576735437838,defined
+random,DoorKey-8x8,refill_rate/toggle,positive refill only,54,0.0019067233053142183,defined
+random,UnlockPickup,any_object_channel_positive_weight_and_refill,all candidates,120,0.2626590265800374,defined
+random,UnlockPickup,refill_rate/drop,all candidates,120,-0.012424654944554213,defined
+random,UnlockPickup,refill_rate/new_view,all candidates,120,-0.2843639496878735,defined
+random,UnlockPickup,refill_rate/pickup,all candidates,120,0.042578867471410785,defined
+random,UnlockPickup,refill_rate/toggle,all candidates,120,-0.20077239305186678,defined
+random,UnlockPickup,refill_zero/drop,all candidates,120,-0.036062054921332125,defined
+random,UnlockPickup,refill_zero/new_view,all candidates,120,0.23693043362355554,defined
+random,UnlockPickup,refill_zero/pickup,all candidates,120,-0.013157505161210297,defined
+random,UnlockPickup,refill_zero/toggle,all candidates,120,0.17389709197376726,defined
+random,UnlockPickup,relief/drop,all candidates,120,-0.028150070851200554,defined
+random,UnlockPickup,relief/new_view,all candidates,120,0.07668178501010121,defined
+random,UnlockPickup,relief/pickup,all candidates,120,0.068075037947518,defined
+random,UnlockPickup,relief/toggle,all candidates,120,-0.12237718479610514,defined
+random,UnlockPickup,weight/drop,all candidates,120,0.30714979279794247,defined
+random,UnlockPickup,weight/new_view,all candidates,120,0.15441146941905592,defined
+random,UnlockPickup,weight/pickup,all candidates,120,0.37916143948715336,defined
+random,UnlockPickup,weight/toggle,all candidates,120,0.047553674719970754,defined
+random,UnlockPickup,refill_rate/new_view,positive refill only,51,-0.3156401905025161,defined
+random,UnlockPickup,refill_rate/pickup,positive refill only,67,0.09289237929679203,defined
+random,UnlockPickup,refill_rate/drop,positive refill only,61,-0.18275608069860588,defined
+random,UnlockPickup,refill_rate/toggle,positive refill only,54,-0.192710339088998,defined

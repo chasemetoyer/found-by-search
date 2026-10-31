@@ -1,0 +1,45 @@
+{
+  "implementation_sha256": {
+    ".python-version": "f01d748a75eb195e6fd73201279bfb23f09036ddd360eb3e9ff40ef042acbc8a",
+    "generic_reward.py": "bd6edc2249f5346f03720b94d9a54dce2328a5d5fba1c4f674bebc56b4855f69",
+    "handoff-cross-platform/code/a1b-run-commit-1533734/config.toml": "5db816dbc4ad85c4bb2d256e574ae4f75d43a43e25be9d96d789bc61c134e2b3",
+    "handoff-cross-platform/code/a1b-run-commit-1533734/intrinsic.py": "f6f04cd1061ce3ce080f3f49700b70ca243330074d66153690de796c3f561242",
+    "handoff-cross-platform/code/a1b-run-commit-1533734/ppo.py": "a9dbee05f5a13213de6d5114e50ba68546a2cb62c534370a0426e01c22b61617",
+    "handoff-cross-platform/code/final-round5/config.toml": "9f072fb2b79307ae663e30d099db205370f5aa3bd74cc2ce5b855035605b3419",
+    "handoff-cross-platform/code/final-round5/intrinsic.py": "9322f41b0ad50b2c539e016cc19191beb8fb9f15451a3fbef31905225140548b",
+    "handoff-cross-platform/code/final-round5/ppo.py": "eedbe2358d7e07c9155b62fe183492ba3cf6fc875da7465b66333f7b9881383f",
+    "pyproject.toml": "f7dc8a640becfcd996abcd9fe5684184976cf43f2bc8bdf91c683350a39df593",
+    "scripts/build_manifest.py": "308ffee95e1d80b2998fceb8d57c1c622bc2ea9f243cfdac8b37ee3cacd6eead",
+    "scripts/check_numbers.py": "fe14a2e7fb8004c38b22aafc28a04e81b1686e436bced47063ae5128cf5f58c6",
+    "scripts/checkpoint.py": "e6034f5811fae84f93fd266f7f730c3301ebe01c4a0bf71b680f38c746f1a4dd",
+    "scripts/report_stage1.py": "75b681d9b00ac9bdc54851c8f804e3b3a444d28610a4a973ea5a6b9970b2d8be",
+    "scripts/verify_lock.py": "4ce8600c2c2dbbfbedd5bf8716afa7583eb381060f8b7cfa49904822b714fdc3",
+    "stage1/__init__.py": "fc555791a7e680cd1a0d6bc75e3e3832adb0e542307dcbdb22f4e134288e718a",
+    "stage1/budget.py": "23b1aaf95abf753b387f066c5fde2cd55fdf775ef14f67c65f244dd1bcf825da",
+    "stage1/continuity.py": "b40d71d1d09671cfb27d4bd09e0b106ca6dfb828226c7dc10a453f49312199ae",
+    "stage1/corrected_ppo.py": "da6ae0ddbda714a8c718d7a95a6ee3b5eabafb5a6aa1573625466bd44667312f",
+    "stage1/generic_ppo.py": "24d24d32d6603d6447f595075f9dde733d11e92b5b74673e0c309019058a7bb6",
+    "stage1/modal_app.py": "6b8c8cbdf433f79f5e3969992285e17e74eff2bafdd707c0fbcee3cb53831638",
+    "stage1/run_training.py": "0b57d05dbfc23c50538db1ff3cf691bd4e1077f4724cd9c3e5c16fea2ab70808",
+    "stage1/score.py": "974937e09f5f85583f407735db181f68f643ef0a5ecf7f1657a5b3b6980eccb2",
+    "stage1/statistics.py": "801c3bfad5f825d05636c4e2fcecb244c94a3ab487964b8ab975c3a3b0e43418",
+    "tests/test_generic_reward.py": "aba1e3db91fc6637a757785d675b350e6e2fa23f73a75ccd588acdc0b88c3978",
+    "tests/test_scoring.py": "423b815146b8e148e7f6e16674c35ff32d4ee7ae9f9713179448bc52acf27bd4",
+    "uv.lock": "e9bc58526453a4dcbdfbb34a3018e9e476bcc72a1a689ea7a6a99cf06c77aabb"
+  },
+  "initial_source_draft_commit": "b3b2b96",
+  "locked_at_utc": "2026-10-28T03:12:23.456983+00:00",
+  "no_evolution_or_random_search": true,
+  "sha256": {
+    "preregistration/stage1.md": "afc8357183972350b059b483ee0060334dce117d676e13958b59bb55d5172044",
+    "stage1/manifest.json": "d38b4a14fd57dc1b6d74ec2346eba8f8db99312a473bfa0447c2e7a87b42a6e8"
+  },
+  "stage": 1,
+  "user_amendments_incorporated": [
+    "archived detector for platform-only check",
+    "corrected detector descriptive control 40-44 at2M",
+    "corrected generic detector incltarget exclusion andafterreset attach",
+    "arithmetic-only recordedpaper-event reduction",
+    "cross-model durable handoff andusage snapshots"
+  ]
+}

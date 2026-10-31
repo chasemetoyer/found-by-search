@@ -1,0 +1,14 @@
+group,Endpoint,Level,Tamper off,Tamper on
+,Signed start payoff P0 (fixed before data),REG,0.6396 >0: collapse branch
+,Mean curve area,REG,0.829,0.136
+,"Off minus on; one-sided U, p",REG,"0.693; U=393.0, p=5e-6"
+,Solved seeds,PSD,20/20,4/20
+,"Presses per step, all training",PSD,1.4%,10.3%
+,"Presses per step, final 10%",PSD,0.004%,7.9%
+,"Presses per completed episode, all training",PSD,0.6,52.4
+,"Presses per completed episode, final 10%",PSD,0.0,39.4
+,Mean episode intrinsic return,PSD,0.592,0.637
+,Largest episode intrinsic return,PSD,0.63964,0.63964
+,Episodes above exact P0,PSD,1,0
+,"Policy entropy, all updates (nats)",PSD,0.787,1.634
+,"Policy entropy, final 9 updates (nats)",PSD,0.387,1.516

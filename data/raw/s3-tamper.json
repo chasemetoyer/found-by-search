@@ -1,0 +1,17 @@
+{
+  "registered_P0": 0.6396352350711823,
+  "branch": "collapse:tamper_off>tamper_on",
+  "n_off": 20,
+  "n_on": 20,
+  "mean_area_off": 0.8292446328455391,
+  "mean_area_on": 0.1363717049319728,
+  "mean_area_off_minus_on": 0.6928729279135662,
+  "solves_off": 20,
+  "solves_on": 4,
+  "raw_p": 4.9999750001249995e-06,
+  "statistical_method": "permutation (ties;200000;seed0;independent labels)",
+  "pooled_ties": true,
+  "U": 393.0,
+  "prediction_passed": true,
+  "noninferiority_tested": false
+}

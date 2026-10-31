@@ -1,0 +1,21 @@
+{
+  "active_tracked_run_id": "177e7cf9-3390-4cd3-a5b3-d9372072094f",
+  "active_worker_source_commit": "196c5257b76a4415b9b39235b61475002340e93e",
+  "added_unregistered_files": {
+    "scripts/run_registry.py": "cbd352381d5092cd1f09b471d1cd124464f86ce78e059ea730fe5623cd5fa3c1"
+  },
+  "agent": "claude_opus_5_5_chat_864bae6d",
+  "evidence_seen_before_amendment": "Validation, determinism and descriptive runs are complete; calibration in progress with 9 of 140 calls complete at amendment time. The added sections do not read, score or select on calibration outcomes. The determinism outcome was already recorded and was not tuned.",
+  "implementation_sha256": {
+    "scripts/check_numbers.py": "0f4fd87165adf30c7bfbe32db8d1476f0a3d9e0e17ae0432e29d1015d8b2b4f3",
+    "scripts/report_stage1.py": "5c708737521e159d92ad95717a63a615373bee0fb91933dcf5f61487a1191c27"
+  },
+  "reason": "Report-only addition during ongoing locked evidence collection, approved by the user. (1) Per-container CPU table: every Modal worker attempt already saved /proc/cpuinfo; the report now derives vendor, family, model, AVX-512 flags, a range-based CPUID microarchitecture label and the inferred PyTorch ATen kernel tier for every attempt, including attempts that exist only on the Modal volume (the preempted corrected-seed41 attempt), whose metadata scripts/run_registry.py copies with hashes into the shared handoff. (2) Determinism explanation: replicate CPU types, the first differing metrics row and fields with relative differences, the first differing episode-statistics row, final-row values, package-inventory and spec comparison, and an interpretation emitted only when every mismatched pair is cross-CPU and every matched pair is same-CPU. (3) One added open Stage 2 decision on CPU instruction-set pinning (ATEN_CPU_CAPABILITY=avx2, MKL_CBWR=AVX2), not run in Stage 1. check_numbers.py independently re-derives CPU identity from raw cpuinfo, enumerates attempts independently, recomputes the divergence location, and confirms the decision text is present. No worker, controller, optimizer, seed, selection rule, metric, statistical test or budget change. The active controller keeps using its immutable source commit.",
+  "scientific_changes": false,
+  "timestamp_utc": "2026-10-28T04:36:22.888186+00:00",
+  "user_approval_quotes": [
+    "Commit and push Astra's report-only amendment, plus your second report-only amendment (per-container CPU table and the determinism explanation), to the private research branch: approved.",
+    "Add one open Stage 2 decision to the report: test whether forcing ATEN_CPU_CAPABILITY=avx2 and MKL_CBWR=AVX2 makes seed 910 bit-identical across Zen 3 and Zen 4 containers. If it does, use them in stage 2. If not, record the CPU type for every run and treat same-seed results as unpaired. Do not run this test now; list it for stage 2.",
+    "CPU logging from the saved cpuinfo files, including the preempted attempt on the volume: approved. No worker-code changes."
+  ]
+}

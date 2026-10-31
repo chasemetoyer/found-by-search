@@ -1,0 +1,165 @@
+{
+  "schema": "stage2-infrastructure-amendment-v1",
+  "created_utc": "2026-10-28T19:40:25.392057+00:00",
+  "approval_seq": 26,
+  "approval_quote": "Resume",
+  "scientific_changes": false,
+  "original_lock_sha256": "21aa731a512643b4c96a45bb837175e17e20490b544e4d0bc3365f7583efef66",
+  "original_source_commit": "b94171f2cfe10d4dc1476bcc1bafcda33d90ef59",
+  "interrupted_run_id": "55d43a42-6cbd-493c-b74d-202f5714f064",
+  "previous_results_directory": "<openresearch>/local-runs/55d43a42-6cbd-493c-b74d-202f5714f064/repo/results",
+  "interrupted_ledger_canonical_sha256": "fbc626adf09f6ac32514c78d5035bf885a7fbd115a02bd61efe76bd9c578c33b",
+  "implementation_sha256": {
+    "stage2/budget.py": "3eab9a15517842b13791c7f711131b09097d95a73f3f968a433e134863c3a7a9",
+    "stage2/controller.py": "ce335d83aa54469f5c94d1d687353619f89aedb361c39a1f7a2feffd20d68ff3",
+    "stage2/registration.py": "a8c77e087f5a95911ad82848ac6a56fa77075c1f4b2bb283df2ff78263f18587",
+    "stage2/scheduler.py": "9ad8cc2f4b005b066e3f11c6bf89ed0987fd95e27fa972e6558b636ad23edf8c"
+  },
+  "added_file_sha256": {
+    "stage2/recovery.py": "610b40a316c139fb5f5d26249e595afc1b42ea564f64ae520a6ba4aa0a7c2f64",
+    "tests/conftest.py": "50a4d2deb16779e218809acb490d552bfccf5498d00c48a356f58cbefc6ff981",
+    "tests/test_stage2_recovery.py": "b34315b77738179f596621766911b921d1935aac5e46263f076685bb81232ce2"
+  },
+  "interrupted_calls": {
+    "search_cma-g04-c049-DoorKey-8x8-2000000-seed1012": {
+      "function_call_id": "fc-01M61SKQWJ24168FXN0Y41R9HZ",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "30f89092030db405a7b93afd163dd9a8c15bd7b7d099159d22cce346f0923695"
+    },
+    "search_cma-g04-c049-DoorKey-8x8-2000000-seed1013": {
+      "function_call_id": "fc-01M61SKX9RQJC04DFWAA6AZ4WZ",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "f2047ba73fcd5c3e386cc9d892d4aa949413ff221730cca6f82275bb1aa1da45"
+    },
+    "search_cma-g04-c049-DoorKey-8x8-2000000-seed1014": {
+      "function_call_id": "fc-01M61SM0BKCG4YER8X670PN8VF",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "7119f7e0c3c49878cff58aad1312bc4178bcc2ad109acc20bf8e9f16993488d0"
+    },
+    "search_cma-g04-c049-UnlockPickup-2000000-seed1013": {
+      "function_call_id": "fc-01M61SMG4GZ83T8G4AFKWPVQMZ",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "28d96e4eeb90b9e21535c24d478e94ee7dd3755b378fa103b2f90e30e4233f02"
+    },
+    "search_cma-g04-c049-UnlockPickup-2000000-seed1014": {
+      "function_call_id": "fc-01M61SMHWTXSHEYSP5DJ00RSZP",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "effebacaf2760be2229598534de44f65fe4d6059f21bd14ff0ac9c3bcb6e0688"
+    },
+    "search_random-b02-c023-UnlockPickup-2000000-seed3008": {
+      "function_call_id": "fc-01M61SP0F6K983E1268HNWGR5A",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "66ae67ae720acd6ed8a5c4c41dcac8fd3ce881d4a45dfdd07ec94f02811fff31"
+    },
+    "search_random-b02-c024-DoorKey-8x8-2000000-seed3006": {
+      "function_call_id": "fc-01M61SP2ZA9DAGYW2FPX4510FN",
+      "provider_status": "SUCCESS",
+      "completion_marker_canonical_sha256": "4165820fdebd00baa3102c9b5cae46af4ed1ab3cdb29a737c58a6b5745f9faef"
+    },
+    "search_random-b02-c024-DoorKey-8x8-2000000-seed3007": {
+      "function_call_id": "fc-01M61SP5051JAYR5QZW186WW9M",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c024-DoorKey-8x8-2000000-seed3008": {
+      "function_call_id": "fc-01M61SPZHVTYZF366MZSVQTKJW",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c024-UnlockPickup-2000000-seed3006": {
+      "function_call_id": "fc-01M61SQCPYCGMZ6PJYK9R8G7H3",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c024-UnlockPickup-2000000-seed3007": {
+      "function_call_id": "fc-01M61SS6VCJZ6K3NMWANH1TMAR",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c024-UnlockPickup-2000000-seed3008": {
+      "function_call_id": "fc-01M61SS9FA2CFFRB8Y8AWP41XB",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-DoorKey-8x8-2000000-seed3006": {
+      "function_call_id": "fc-01M61STW44MAH6ER4RZE68PKFT",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-DoorKey-8x8-2000000-seed3007": {
+      "function_call_id": "fc-01M61SVKEM74QDBS8HT285WE87",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-DoorKey-8x8-2000000-seed3008": {
+      "function_call_id": "fc-01M61SYHYW4AVJF631GBT17NVZ",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-UnlockPickup-2000000-seed3006": {
+      "function_call_id": "fc-01M61SYKHVJYQNX3EX8GB1MYQM",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-UnlockPickup-2000000-seed3007": {
+      "function_call_id": "fc-01M61T00MMY3WMBQEVZ6RVBE6J",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c025-UnlockPickup-2000000-seed3008": {
+      "function_call_id": "fc-01M61T0SC15CD3KA9QWYRNM0SD",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-DoorKey-8x8-2000000-seed3006": {
+      "function_call_id": "fc-01M61T3Z59F7VHK82XYKWZFP23",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-DoorKey-8x8-2000000-seed3007": {
+      "function_call_id": "fc-01M61T41FC138YSR0ZTXHXETVS",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-DoorKey-8x8-2000000-seed3008": {
+      "function_call_id": "fc-01M61T4ZDB14QJMADVE5NSWYNX",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-UnlockPickup-2000000-seed3006": {
+      "function_call_id": "fc-01M61T524WT5RCN6G9N2HW0STH",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-UnlockPickup-2000000-seed3007": {
+      "function_call_id": "fc-01M61T551780BS8M553W1GGNEM",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c026-UnlockPickup-2000000-seed3008": {
+      "function_call_id": "fc-01M61T5GA2AF9TEX2J3KM2MAGY",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c027-DoorKey-8x8-2000000-seed3006": {
+      "function_call_id": "fc-01M61T6QD8V51XNJQC0076Z07N",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c027-DoorKey-8x8-2000000-seed3007": {
+      "function_call_id": "fc-01M61T7Q2H9X0DQCKZ6DP4B6YD",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c027-DoorKey-8x8-2000000-seed3008": {
+      "function_call_id": "fc-01M61T95E4ENYYBXJYVD8VERXV",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c027-UnlockPickup-2000000-seed3006": {
+      "function_call_id": "fc-01M61T9Z532636CEH5BAYN33NS",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c027-UnlockPickup-2000000-seed3007": {
+      "function_call_id": "fc-01M61TC218PWJVDNASG5ET591X",
+      "provider_status": "TERMINATED"
+    },
+    "search_random-b02-c027-UnlockPickup-2000000-seed3008": {
+      "function_call_id": "fc-01M61TC3ZGSNMQ8CBH0TRCVP2E",
+      "provider_status": "TERMINATED"
+    }
+  },
+  "changes": [
+    "Bounded transport-read retries:6 attempts, exponential backoff2^i up to30s; hash/data validation errors fail closed.",
+    "Reconcile7 existing success markers; retain original guard charges.",
+    "Authorize23 identical-input retries only after provider TERMINATED and no completion marker. Retain old full reservations as infrastructure_history in guard.",
+    "3600-second new-attempt deadline; no completed input retrained. All original handles retained.",
+    "Hash-verified local saved outputs reused to avoid downloading completed checkpoints again."
+  ],
+  "limitations": [
+    "Controller still local and tied to Mac connectivity; keep Mac awake and app open.",
+    "Retaining full canceled-attempt reservations is conservative; not a final invoice.",
+    "Exact cross-machine reproducibility remains unavailable."
+  ],
+  "verification": "93 fixture-based tests; no local training or additional scientific seed use. Frozen pre-lock test alias supplied its intended fixture through new tests/conftest.py; original tests remain unchanged."
+}

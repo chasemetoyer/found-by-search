@@ -1,0 +1,11 @@
+{
+  "physical_attempts": 1850,
+  "provider_calls": 1802,
+  "additional_same_call_attempts": 48,
+  "completed_calls_with_multiple_attempts": 47,
+  "manual_same_input_retry_calls": 50,
+  "terminated_provider_calls": 50,
+  "attempts_missing_usage": 4,
+  "confirmed_preemption_count": null,
+  "preemption_limitation": "Additional same-call attempts show restarts. KeyboardInterrupt or missing usage does not establish a provider preemption cause."
+}

@@ -1,0 +1,11 @@
+{
+  "active_tracked_run_id": "177e7cf9-3390-4cd3-a5b3-d9372072094f",
+  "active_worker_source_commit": "196c5257b76a4415b9b39235b61475002340e93e",
+  "implementation_sha256": {
+    "scripts/check_numbers.py": "38dc56015ee92c6ca6e457f804a4eb89679fdcd8341b15e58ae110ae6fa9c77e",
+    "scripts/report_stage1.py": "93de61626f32f605fd33b17656cd508e33c1783cd3be18fe6dfea22b998b3f52"
+  },
+  "reason": "Report-only completeness and transparency repair during ongoing locked evidence collection: distinguish standalone pytest cases from XML subtest aggregate; render exact corrected event definitions and the four explicitly open Stage2 decisions; report every recorded event disagreement by type/count and disclose zero-toggle coverage and unretained physical-state/need histories; carry setup-failure cost limitations into spending; clarify registered runtime dependency choice. Add independent checks for the new validation-count presentation. No worker, optimizer, seed, selection rule, metric, statistical test or budget change. The active controller continues using its immutable source commit.",
+  "scientific_changes": false,
+  "timestamp_utc": "2026-10-28T03:45:10.097369+00:00"
+}

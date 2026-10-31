@@ -1,0 +1,288 @@
+{
+  "completed": 34,
+  "completed_inputs": [
+    {
+      "id": "stage3_smoke-E-DoorKey-8x8-8192-seed6000",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-E-DoorKey-8x8-8192-seed6000.json",
+        "sha256": "c3861721ebd2db5b5a277502324e99a39d98ebc0cc3334806c492ece95a09ac1"
+      },
+      "spec_sha256": "381ea962db50ccf97bec81756695f566f8407456147adab5132d8f17538f7c0a"
+    },
+    {
+      "id": "stage3_smoke-E-DoorKey-8x8-8192-seed6001",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-E-DoorKey-8x8-8192-seed6001.json",
+        "sha256": "5fc3c3ca5964973f6889a46999b9938611d4e8cf916fad1c78fac6e5bb17b38d"
+      },
+      "spec_sha256": "5b80febd90f85292474f219f6926e142fc693df00daa2e50ec203cfed668aef5"
+    },
+    {
+      "id": "stage3_smoke-E-KeyCorridorS3R2-8192-seed6020",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-E-KeyCorridorS3R2-8192-seed6020.json",
+        "sha256": "4c7b1001e5545246198a27c6fa1cf0345e28ad124d7068d6785cfce805d6482f"
+      },
+      "spec_sha256": "a2b581c24d3cafe9970cf195e6bc7ccef57b1ed01168bf60a0923652db26f64a"
+    },
+    {
+      "id": "stage3_smoke-E-KeyCorridorS3R2-8192-seed6021",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-E-KeyCorridorS3R2-8192-seed6021.json",
+        "sha256": "acbb2baac87d8c728940d986450b60fc86b641b0858985d0cf3066b8eac381a7"
+      },
+      "spec_sha256": "601e28ad55297f6cb6faaa52216463298cd007154c30843e077e3e888bf46098"
+    },
+    {
+      "id": "stage3_smoke-E-UnlockPickup-8192-seed6010",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-E-UnlockPickup-8192-seed6010.json",
+        "sha256": "33ac83bc53b9ba05c530ee76f85b83b3ce7fdd729c23817c6f2366c2eb60018b"
+      },
+      "spec_sha256": "9f9266fdafe30945c73fa8aca358376a4c547123a79b7667539afe596b57e361"
+    },
+    {
+      "id": "stage3_smoke-E-UnlockPickup-8192-seed6011",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-E-UnlockPickup-8192-seed6011.json",
+        "sha256": "83b4b6c6cfb2fb94902937d63c48ace502fd8c90116aebe5553b82031ac4ae1c"
+      },
+      "spec_sha256": "c73e05cfdc20d86d8e0ac6ff10bdb6ddc3852e16e39dca0e7493a414b928cd29"
+    },
+    {
+      "id": "stage3_smoke-N-DoorKey-8x8-8192-seed6300",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-N-DoorKey-8x8-8192-seed6300.json",
+        "sha256": "c39b57a62fdc0ee31a12050ce1d979994562c74d6a15b6d0efbfe3a9e69e17cb"
+      },
+      "spec_sha256": "a042f0d174fd67b205170a92b143401563fcb12e30e4719bfb5bea2e28cdfa92"
+    },
+    {
+      "id": "stage3_smoke-N-DoorKey-8x8-8192-seed6301",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-N-DoorKey-8x8-8192-seed6301.json",
+        "sha256": "dbbe5ec9d877ebc392a5b416b28797ce477dd7b62b7604dedb507e115140548c"
+      },
+      "spec_sha256": "56823c9629bf2e4edc6302cc93dd70eb28e31aacfe2454eb3d4c3afc8a2a9dc8"
+    },
+    {
+      "id": "stage3_smoke-N-KeyCorridorS3R2-8192-seed6320",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-N-KeyCorridorS3R2-8192-seed6320.json",
+        "sha256": "57275628a46fa30c722c5f6bf5c085c1bd12813b252ebe17d0f5d68e9791238c"
+      },
+      "spec_sha256": "c91eef661d1fbb51e3572baaeb9a926c82d2a2998ae9d2124a13b23262c37918"
+    },
+    {
+      "id": "stage3_smoke-N-KeyCorridorS3R2-8192-seed6321",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-N-KeyCorridorS3R2-8192-seed6321.json",
+        "sha256": "aa734065c61a8894d2cde5fd7b7d5b13cbeef09ef152c9a867d1896cef133460"
+      },
+      "spec_sha256": "5ab53967bc33fcb4c2a3c20a50b1fa9461c1129f44d9e9c5c784be0b9d696832"
+    },
+    {
+      "id": "stage3_smoke-N-UnlockPickup-8192-seed6310",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-N-UnlockPickup-8192-seed6310.json",
+        "sha256": "8a96433ab7274a6af84b58c3f6605cbb44320348d01b0dc708d775a0b6dfb420"
+      },
+      "spec_sha256": "74292f7c9ad5701cc4d746481db6636a805895575a2fa172c668b6cf21a40386"
+    },
+    {
+      "id": "stage3_smoke-N-UnlockPickup-8192-seed6311",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-N-UnlockPickup-8192-seed6311.json",
+        "sha256": "d5c89a79a51c96487cdeae66cf39c24d2499f2dad6421674ccd6fe4cfd81bee8"
+      },
+      "spec_sha256": "4efab8eb9b197fe88eae665adf9f1c6f65c41869fea85c5fcc3424739f0648d2"
+    },
+    {
+      "id": "stage3_smoke-R-DoorKey-8x8-8192-seed6100",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-R-DoorKey-8x8-8192-seed6100.json",
+        "sha256": "9a2c74cd09fd908a6ebdf78fea2523885105bbe3a7699dd5e3616cbaa8ab0653"
+      },
+      "spec_sha256": "d7cf859f7139ee7c7469af4172e189856e9dbe5adbcb1a9b45fc88cb56d57df5"
+    },
+    {
+      "id": "stage3_smoke-R-DoorKey-8x8-8192-seed6101",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-R-DoorKey-8x8-8192-seed6101.json",
+        "sha256": "697ae32f4a003a35f54e5a9df2951664b84e3f045f8ee1e1e0d3645a788573e8"
+      },
+      "spec_sha256": "95984667b9aadcffc1103400a200497f2c193c754063879b2bc789ccc5ec063d"
+    },
+    {
+      "id": "stage3_smoke-R-KeyCorridorS3R2-8192-seed6120",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-R-KeyCorridorS3R2-8192-seed6120.json",
+        "sha256": "80be55e94f110bb4443a036e6033f2dcd78c5ec44bbc2a5d848234acfad3c13c"
+      },
+      "spec_sha256": "543c6a17acba84fae355bec407328c1d0b68f550e77d8ad5b762c00a2d705ff5"
+    },
+    {
+      "id": "stage3_smoke-R-KeyCorridorS3R2-8192-seed6121",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-R-KeyCorridorS3R2-8192-seed6121.json",
+        "sha256": "bd76a7ce6b74f58b1452aecd29cc3a56ce3ccebc5a669e2758641e760481b216"
+      },
+      "spec_sha256": "8aa2c9faa608aa9249ca66503c51b1e8e68904afbffc98c985d949b406e6d366"
+    },
+    {
+      "id": "stage3_smoke-R-UnlockPickup-8192-seed6110",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-R-UnlockPickup-8192-seed6110.json",
+        "sha256": "4bc22b3265e118c3b3bbe2f0b3c5b1bffbd234386da971a9caf4d3be9c0e0d2a"
+      },
+      "spec_sha256": "af0b9d4a8042692b4d912f59237a858b75d9166628cced33e320be1537af81ae"
+    },
+    {
+      "id": "stage3_smoke-R-UnlockPickup-8192-seed6111",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-R-UnlockPickup-8192-seed6111.json",
+        "sha256": "3283a8d7411b012e70b759f102705c9bf93398b8934c59dad813e26921ff7197"
+      },
+      "spec_sha256": "993c9af74179ef111e1a98effdf4d719f8768ce32847f1081a3dabf53767323d"
+    },
+    {
+      "id": "stage3_smoke-S-DoorKey-8x8-8192-seed6400",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-S-DoorKey-8x8-8192-seed6400.json",
+        "sha256": "95f146dab55993d91d1daf41e25b58d5645ce73e0f88845ad776854a4c9b6776"
+      },
+      "spec_sha256": "bad0acad8c829b91be6383c40612d5540e23f40ee76d26fb19124ccfd0af5787"
+    },
+    {
+      "id": "stage3_smoke-S-DoorKey-8x8-8192-seed6401",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-S-DoorKey-8x8-8192-seed6401.json",
+        "sha256": "a871c30cd7e0d953373456d6a7e30c02272d3bea24b071554d479eb886977400"
+      },
+      "spec_sha256": "5796146c0dd632d1efebcfd67abb276f11e6b32526cd597b4ad5e2c28585b40c"
+    },
+    {
+      "id": "stage3_smoke-S-KeyCorridorS3R2-8192-seed6420",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-S-KeyCorridorS3R2-8192-seed6420.json",
+        "sha256": "9c31b2b9c2173656b28d1fb4f86264178e4c4cc48c9b610ba463f0b562179d28"
+      },
+      "spec_sha256": "5165d058c6390b2b049a5c0a04f7c30c6099a0b4db14176d1e516e8df0abddbc"
+    },
+    {
+      "id": "stage3_smoke-S-KeyCorridorS3R2-8192-seed6421",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-S-KeyCorridorS3R2-8192-seed6421.json",
+        "sha256": "679e4811a0b1220edb1dab88b6f63b731b540e838d192640af8631aa60f552a6"
+      },
+      "spec_sha256": "a41c0685a101b39cd326d4bb8d175f45b107733add738459e95b9544c7fb508b"
+    },
+    {
+      "id": "stage3_smoke-S-UnlockPickup-8192-seed6410",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-S-UnlockPickup-8192-seed6410.json",
+        "sha256": "6ca894ff44b94a8c2a0bf625e428b2af7d9b2458b6a3df4fa30140dbd9119b89"
+      },
+      "spec_sha256": "70d10da46253bcff75a8a47c4d595fe949380916ad3eee5b13f9d050017fd2fa"
+    },
+    {
+      "id": "stage3_smoke-S-UnlockPickup-8192-seed6411",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-S-UnlockPickup-8192-seed6411.json",
+        "sha256": "d11b77c31e262de69211da9b28c3acc1f4675b97aa52c6a0e4286445d4620491"
+      },
+      "spec_sha256": "cad2590efd8c5ee5497bb362043f96ba3e1e4008061e544eeae3fbff20385e93"
+    },
+    {
+      "id": "stage3_smoke-T-DoorKey-8x8-8192-seed6200",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-T-DoorKey-8x8-8192-seed6200.json",
+        "sha256": "b4f37bb924e0c23afbde8f1356e6972ead99d6b3207c68b2a5a186ae11448a9b"
+      },
+      "spec_sha256": "d6786e0a10835a95a28556c86c3c670202b3f0ac1c6804151f2529ce7c183432"
+    },
+    {
+      "id": "stage3_smoke-T-DoorKey-8x8-8192-seed6201",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-T-DoorKey-8x8-8192-seed6201.json",
+        "sha256": "16797314b9acbe1b237a84c1d6e387281a79f0e5c691ea46e11f1d8fd7db5830"
+      },
+      "spec_sha256": "52d1ee44d01eb87583dd835fb425db689da44fe788686ace8e5f62344ce46ec4"
+    },
+    {
+      "id": "stage3_smoke-T-KeyCorridorS3R2-8192-seed6220",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-T-KeyCorridorS3R2-8192-seed6220.json",
+        "sha256": "fe7e58b67b4bda1e3a6a6b86a3195cf4a284b0e5865f7b420f66c74fec0008c3"
+      },
+      "spec_sha256": "7e45c4ec378786d884ba21b3af9977be8e656dfa8f0cb2a4d0f93dec065cd199"
+    },
+    {
+      "id": "stage3_smoke-T-KeyCorridorS3R2-8192-seed6221",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-T-KeyCorridorS3R2-8192-seed6221.json",
+        "sha256": "73b1d104c179f190cabe43471ecfd2942240e521dd925d434bfdc518aed93427"
+      },
+      "spec_sha256": "b2a61b8427b4d0b6c750e94e56689160b2699e530d91fed2a7d7313b57e053f0"
+    },
+    {
+      "id": "stage3_smoke-T-UnlockPickup-8192-seed6210",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-T-UnlockPickup-8192-seed6210.json",
+        "sha256": "4c6688c744e08809602c0499c0e64c25116f0a864125f0964b38bc29058313f7"
+      },
+      "spec_sha256": "79ec4bcf9e0696c0ff07aad1d081cd0788a54405ecaad878cc72f84f1576801b"
+    },
+    {
+      "id": "stage3_smoke-T-UnlockPickup-8192-seed6211",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-T-UnlockPickup-8192-seed6211.json",
+        "sha256": "e2bf9ca038770fc9427ee71410e84b544c9efa06db9fdf957f380e151a33af0d"
+      },
+      "spec_sha256": "2151a3c28f43b621523d297e8b7594d19c7fd0f9b7fce0aa3967a525779dde39"
+    },
+    {
+      "id": "stage3_smoke-tamper_off-DoorKey-8x8-8192-seed7000",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-tamper_off-DoorKey-8x8-8192-seed7000.json",
+        "sha256": "b2dd79e562b476c80322393fc98bdbf717c74c880c4179834f4146a0282bdf66"
+      },
+      "spec_sha256": "5650a04bcb166e40fd3707577c3837381b180c1bf0dbaab157eb0335ff94ae00"
+    },
+    {
+      "id": "stage3_smoke-tamper_off-DoorKey-8x8-8192-seed7001",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-tamper_off-DoorKey-8x8-8192-seed7001.json",
+        "sha256": "28507c68bf792e777518462d8600b02aea1bc9fafdb714924017920f1d53641e"
+      },
+      "spec_sha256": "c5575f88a73be6443bee31b9043ed09223786eed18e749f26e21d3270437d01e"
+    },
+    {
+      "id": "stage3_smoke-tamper_on-DoorKey-8x8-8192-seed7100",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-tamper_on-DoorKey-8x8-8192-seed7100.json",
+        "sha256": "8ce69f0672688859f06f3c00788d52577b89bb10fa609be4a2972f3534ed7456"
+      },
+      "spec_sha256": "0322c42d41c23fae01ad2a55123a894fb3e6200e184b936bf1a50e29274b9904"
+    },
+    {
+      "id": "stage3_smoke-tamper_on-DoorKey-8x8-8192-seed7101",
+      "marker": {
+        "path": "stage3/proofs/smoke-markers/stage3_smoke-tamper_on-DoorKey-8x8-8192-seed7101.json",
+        "sha256": "bccdc059dd3b8a0f382c100a8a0b70078edcc4e2c5d75967f36f816582aad18c"
+      },
+      "spec_sha256": "df202ea3e222395ff6535bb8edd08cc0ac3484151b5355a9653c81cb7d8d9497"
+    }
+  ],
+  "expected": 34,
+  "implementation_inventory_sha256": "3b9482892ebfd8e7b8c38b276038e9971c59da8b74f7c5d45acc7e8b8a796347",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "profile": "smoke",
+  "replayed": 34,
+  "run_id": "0dd2817c-9ff4-4a17-9471-3ff6cf8e2700",
+  "source_commit": "cd79ce5116cc39130001c0681e87539bb5d4a8b0",
+  "status": "PASS",
+  "submitted": 0,
+  "tracking_status": "PASS",
+  "worker_smoke_run_id": "f23220df-d501-4cde-8dbd-4c9d1bf8840e"
+}

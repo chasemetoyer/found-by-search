@@ -1,0 +1,237 @@
+{
+  "schema": "stage3-cost-projection-v1",
+  "status": "READY_BELOW13_WITH_DISCLOSED_RESOURCE_PROXY",
+  "observed_utc": "2026-10-29T14:18:04.995871+00:00",
+  "stage3_cap_usd": "15",
+  "prelaunch_review_threshold_usd": "13",
+  "final_evaluation_inputs": 300,
+  "heldout_inputs": 100,
+  "tamper_inputs": 40,
+  "logical_inputs": 340,
+  "run_counts_by_task": {
+    "DoorKey-8x8": 140,
+    "UnlockPickup": 100,
+    "KeyCorridorS3R2": 100
+  },
+  "measured_units": {
+    "DoorKey-8x8": {
+      "stage1_samples": 10,
+      "stage1_compute_usd": "0.013381940909450407",
+      "stage1_function_wall_seconds": "762.9384783039001",
+      "stage2_samples": 780,
+      "measured_compute_proxy_usd": "0.014199619617360496",
+      "ordinary_guard_proxy_usd": "0.01557422333443679812047483871",
+      "ordinary_guard_sample_count": 775
+    },
+    "UnlockPickup": {
+      "stage1_samples": 10,
+      "stage1_compute_usd": "0.012769100017733908",
+      "stage1_function_wall_seconds": "727.9988607602",
+      "stage2_samples": 780,
+      "measured_compute_proxy_usd": "0.014254851553935535",
+      "ordinary_guard_proxy_usd": "0.01561169098567344114321188630",
+      "ordinary_guard_sample_count": 774
+    },
+    "KeyCorridorS3R2": {
+      "stage1_samples": 10,
+      "stage1_compute_usd": "0.013434217585154512",
+      "stage1_function_wall_seconds": "765.9189045127999",
+      "measured_compute_proxy_usd": "0.01499735902715822576736740923",
+      "ordinary_guard_proxy_usd": "0.01644918844376140382733608956",
+      "inference": "Stage1 heldout baseline runtime inflated by maximum Stage2/Stage1 task ratio, then maximum Stage2 guard/compute ratio; no Stage3 outcomes"
+    }
+  },
+  "heldout_runtime_inflation_factor": "1.116355227395681301113305418",
+  "heldout_guard_to_compute_factor": "1.096805671850230948548902798",
+  "measured_function_compute_proxy_usd": "4.913167804539845516736740923",
+  "ordinary_worker_guard_projection_usd": "5.386479209764636233921275005",
+  "max32_inflight_reservations_usd": "2.05428480",
+  "single3600s_plus60s_reservation_usd": "0.06419640",
+  "failure_cost_contingency_usd": "1.09133880",
+  "failure_contingency_calls_equivalent": 17,
+  "failure_contingency_policy": "Cost envelope only: not permission for17new call handles, not a new5%infrastructure failure threshold. Registered max3same-input/call retries and exhaustion-reconciliation stop unchanged. Existing successful units already include measured same-call restarts.",
+  "controller_projection_envelope": {
+    "physical_cores": 1,
+    "memory_gib": 2,
+    "runtime_reservation_hours": 12,
+    "reserved_usd": "2.27923200",
+    "maximum_limits_verified": false,
+    "critical_limitation": "Native CPU/RAM maxima remain unset after read-only preflight; 1core/2GiB12h is a forecast proxy, not an authoritative provider invoice cap. Measured probe was559734784peakRSS and12.33coresec over28.86s."
+  },
+  "controller_expected_hours_with_one_hour_margin": "3.431529423094358488502837227",
+  "controller_expected_envelope_cost_usd": "0.6517709725048500738722748916",
+  "shared_overhead_allowance_usd": "0.50",
+  "precheck_and_smoke_allowance_usd": "0.50",
+  "scenarios": {
+    "1": {
+      "worker_runtime_multiplier": "1",
+      "projected_guard_peak_usd": "12.10239284781938858170267500",
+      "review_gate": "BELOW_THRESHOLD"
+    },
+    "1.1": {
+      "worker_runtime_multiplier": "1.1",
+      "projected_guard_peak_usd": "12.64104076879585220509480251",
+      "review_gate": "BELOW_THRESHOLD"
+    },
+    "1.2": {
+      "worker_runtime_multiplier": "1.2",
+      "projected_guard_peak_usd": "13.17968868977231582848693001",
+      "review_gate": "STOP_AND_TELL_USER"
+    },
+    "1.3": {
+      "worker_runtime_multiplier": "1.3",
+      "projected_guard_peak_usd": "13.71833661074877945187905751",
+      "review_gate": "STOP_AND_TELL_USER"
+    }
+  },
+  "native_cpu_resource_metadata": {
+    "source": "Read-only SandboxList(include_finished=True) for previous tracked native Modal --flavor cpu runs",
+    "sandboxes": [
+      "sb-01M626CZV8NAHC9RHBDJYK8DWN",
+      "sb-01M627NQZEYDF9Y2WP3F83VZEG"
+    ],
+    "memory_mb_requested": 128,
+    "milli_cpu_requested": 125,
+    "memory_mb_max": null,
+    "milli_cpu_max": null,
+    "ephemeral_disk_mb": 512,
+    "read_only_internal_api_warning": "SandboxList is accessed through SDK Client.stub, an unsupported internal read-only interface; metadata may change. No mutations performed."
+  },
+  "pricing": {
+    "source": "https://modal.com/pricing",
+    "checked_utc_date": "2026-10-29",
+    "function_cpu_usd_core_second": ".0000131",
+    "function_ram_usd_gib_second": ".00000222",
+    "sandbox_cpu_usd_core_second": ".00003942",
+    "sandbox_ram_usd_gib_second": ".00000667",
+    "sandbox_multiplier": 3
+  },
+  "limitations": [
+    "All projections are estimates, not invoices or guarantees of completion.",
+    "E/R held-out and tamper runtimes are not yet measured. No new task performance should be read for cost calibration.",
+    "Failure allowance is deliberately above observed Stage2 manual-retry frequency but does not cover every possible interruption. The15USD guard must block reservations before crossing.",
+    "Native CPU/RAM maxima remain unspecified; forecast proxy and delayed completed-hour billing floor are distinct from a final invoice.",
+    "20%worker-runtime stress peak is13.17968868977231582848693001USD; above13requiresreview."
+  ],
+  "tracking_server_reserved_usd": "0.189432000",
+  "tracking_server_envelope": {
+    "cores": ".25",
+    "memory_gib": ".5",
+    "maximum_resources_explicitly_configured": true,
+    "reserved_active_hours": 12,
+    "min_containers": 1
+  },
+  "planning_runtime_multiplier": "1.1",
+  "planning_guard_peak_usd": "12.64104076879585220509480251",
+  "projection_status": "READY_BELOW13_WITH_DISCLOSED_RESOURCE_PROXY",
+  "controller_resource_probe": {
+    "controller_cpu_seconds": 12.33,
+    "controller_peak_rss_bytes": 559734784,
+    "controller_wall_seconds": 28.86447262763977,
+    "cpu_max": null,
+    "decode": "PASS",
+    "endpoint_base_public": "https://chasemetoyer--evolved-intrinsic-rewards-stage3-monitor-m-122d67.us-east.modal.run",
+    "memory_max": null,
+    "run_id": "29324473-efa7-42d0-8d7d-cc7a2662dd3b",
+    "scientific_submissions": 0,
+    "status": "PASS",
+    "tracking_initialized": true
+  },
+  "hard_cap_usd": "15",
+  "projected_guard_peak_usd": "12.64104076879585220509480251",
+  "final_evaluation_runs": 300,
+  "held_out_runs": 100,
+  "tamper_runs": 40,
+  "max_in_flight": 32,
+  "includes_retries": true,
+  "includes_controller_container": true,
+  "includes_tracking_container": true,
+  "includes_tracking_expiry_guardian": true,
+  "includes_prelaunch_spend": true,
+  "includes_in_flight_reservations": true,
+  "in_flight_reservation_usd": "2.05428480",
+  "scientific_input_plan_sha256": "75831d36a058c8721ebe52e64aa967df1b8cdb846018b589a198471a56d7b7ee",
+  "provider_ledger_canonical_sha256": "494e7b9b0e56f6b0c8b0932cef395e7fbbf6e0cd7caa96dcccbfeacd83fa318b",
+  "tracking_shutdown_guardian_usd": "0.08295780000",
+  "prelaunch_guard_usd": "1.2081002380547523477814",
+  "resource_limitation": "Native controller has no enforced CPU/RAM maxima;1core2GiB12h is a conservative forecast envelope, not an invoice guarantee. Preflight measured559734784RSS/12.33coresec over28.86s.",
+  "tracking_lifetime": "Warm cappedsingleton;12hlease andcappedpaidexpiryguardiandisablesdeployment. Freshfullservice/guardianallowances included forscientificlaunch; precheckallowanceincludes priorserviceusage.",
+  "updated_utc": "2026-10-29T16:05:09.025471+00:00",
+  "no_scientific_stage3_compute_launched": true,
+  "provider_reconciliation_sha256": "0d30e9498a561f35a66270ca0c583dcbb173b9a619ca9e8e078340362a63091d",
+  "prelaunch_billing_readback": {
+    "status": "ok",
+    "queried_utc": "2026-10-29T16:05:07.070796+00:00",
+    "resolution": "h",
+    "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+    "stage": "3",
+    "provider_reported_complete_intervals_cost_usd": "0.05447282",
+    "retained_billed_floor_usd": "0.05447282",
+    "cost_by_role_usd": {
+      "tracking": "0.02609618",
+      "unlabeled_stage3": "0.02837664"
+    },
+    "rows": [
+      {
+        "cost": "0.00456128",
+        "cost_by_resource": {
+          "CPU": "0.00340977",
+          "Memory": "0.00115150"
+        },
+        "description": "evolved-intrinsic-rewards-stage3-monitor",
+        "environment_name": "main",
+        "interval_start": "2026-10-29T14:00:00+00:00",
+        "object_id": "ap-QfXLciUAiaTAO6tVQvvVfP",
+        "tags": {
+          "role": "tracking",
+          "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+          "stage": "3"
+        }
+      },
+      {
+        "cost": "0.02837664",
+        "cost_by_resource": {
+          "CPU": "0.02121206",
+          "Memory": "0.00716459"
+        },
+        "description": "evolved-intrinsic-rewards-stage3",
+        "environment_name": "main",
+        "interval_start": "2026-10-29T14:00:00+00:00",
+        "object_id": "ap-QzSLMfohJxrVjI5ZEuh6P4",
+        "tags": {
+          "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+          "stage": "3"
+        }
+      },
+      {
+        "cost": "0.02153490",
+        "cost_by_resource": {
+          "CPU": "0.01691017",
+          "Memory": "0.00462473"
+        },
+        "description": "evolved-intrinsic-rewards-stage3-monitor",
+        "environment_name": "main",
+        "interval_start": "2026-10-29T15:00:00+00:00",
+        "object_id": "ap-QfXLciUAiaTAO6tVQvvVfP",
+        "tags": {
+          "role": "tracking",
+          "project_id": "64555583-12e3-4641-82a0-b8841b663e70",
+          "stage": "3"
+        }
+      }
+    ],
+    "excluded_row_counts": {
+      "different_project": 2,
+      "different_or_missing_stage": 0
+    },
+    "native_controller_proxy_usd": null,
+    "native_controller_invoice_usd": null,
+    "native_controller_attribution": "Unknown unless the provider row carries both project_id and stage=3. The native Sandbox resource proxy stays in the ledger; missing tagged billing is not zero cost.",
+    "coverage": "Complete hourly report intervals only; recent costs, native Sandbox attribution, volume/egress or other untagged costs may be absent. Not a final invoice or a hard invoice cap.",
+    "read_only_provider_query": true,
+    "period_start_utc": "2026-10-29T14:30:16.972022+00:00"
+  },
+  "tracking_server_12h_prefunded": true,
+  "projection_accounting": "Currentliveguardretainsallpriorworker/controller/guardianchargesandelapsedtracking2x+fresh12h+1hmargin; addfuture340workerswith10%runtimecushion,32inflightreservations,retrycontingency,12hsciencecontrollerandnewguardian. No duplicatedtrackingreserve oroverhead.",
+  "tracking_past_and_future_reservation_usd": "0.255120165913047789020"
+}

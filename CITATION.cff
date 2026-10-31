@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it as below."
+title: "Found by Search, Broken by a Shortcut: Transfer and Tampering of Searched Intrinsic Rewards"
+type: software
+authors:
+  - family-names: Metoyer
+    given-names: Chase J.
+    affiliation: Northeastern University
+repository-code: "https://github.com/chasemetoyer/found-by-search"
+version: "v1.0"
+license: MIT

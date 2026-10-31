@@ -1,0 +1,10 @@
+task,comparison,E_solved,comparator_solved,n_E,n_comparator,descriptive_one_sided_fisher_p,confirmatory
+DoorKey-8x8,E > T,20,8,20,20,2.2547575384060367e-05,False
+DoorKey-8x8,E > N,20,17,20,20,0.1153846153846154,False
+DoorKey-8x8,E > R,20,20,20,20,1.0,False
+UnlockPickup,E > T,8,0,20,20,0.0016380016380016379,False
+UnlockPickup,E > N,8,0,20,20,0.0016380016380016379,False
+UnlockPickup,E > R,8,3,20,20,0.0775937227550131,False
+KeyCorridorS3R2,E > T,4,0,20,20,0.053014553014553024,False
+KeyCorridorS3R2,E > N,4,0,20,20,0.053014553014553024,False
+KeyCorridorS3R2,E > R,4,0,20,20,0.053014553014553024,False
