@@ -61,7 +61,6 @@
  "itemize [itemsep=1pt] tasks. one held-out task and": "Stage 1 selection kept 1 held-out task, KeyCorridorS3R2 (s1-numbers.json calibration.selection, role held_out, kept)",
  "itemize results carry one of three labels.": "the paper's three evidence levels (REGISTERED, PRE-SPECIFIED DESCRIPTIVE, EXPLORATORY/POST HOC), fixed by the user",
  "mark events whose single occurrence empties the": "definition used in Table 6 and Figure 7: relief >= h0 and growth 0",
- "model names of both agents.] the agents": "the two agents named in the sentence: Claude and the OpenAI Codex agent (handoff records: session-log.jsonl owners)",
  "n ). the two panels used different": "tamper-on panel seeds 2020-2039 and task-only DoorKey panel seeds 2000-2019 (locked stage2.md seed table)",
  "n controller events: two transport failures (a": "s2-interruptions.csv: 55d43a42 (saved-result download DNS failure) and 13b2db55 (FunctionGetOutputs polling deadline)",
  "n distinct fingerprints, one shared by the": "s2pre-pinned-determinism.json: zen3 and zen4 replicates share one fingerprint, intel replicates the other (distinct_fingerprint_triples = 2)",

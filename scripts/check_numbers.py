@@ -154,7 +154,6 @@ PHRASES = [
     # equation structure (bounds, indicator sets, signs), not measured values
     r"\[0,1\]", r"\\\{0,1\\\}", r"(max|min)\(w ,0\)", r"\$7\\times7\$", r"2z-1", r"u<0", r">0\$", r"\$1/g\$",
     r"\(1-\\gamma\)", r"\(2-s\)",
-    r"Opus 5\.5",  # model name in the AI-assistance statement
 ]
 prose = body
 prose = re.sub(r"\\begin\{equation\}.*?\\end\{equation\}", " ", prose, flags=re.S)
