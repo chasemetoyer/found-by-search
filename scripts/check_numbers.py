@@ -10,7 +10,7 @@ Checks, in order:
   5. Scan the document for literal numbers, including TikZ node text. A literal passes only if it is a declared
      design constant (ALLOWED, with its justification) or sits inside a declared structural phrase (PHRASES).
   6. Bibliography: every entry has a DOI, an arXiv id or a verified URL; every cited key exists; every arXiv id
-     appears in paper.bbl; the preprint entry still carries its placeholder note.
+     appears in paper.bbl; the preprint entry cites its arXiv identifier.
   7. Banned phrases (terminology and claims the user ruled out) fail the check. Causal words in the exploratory and
      discussion text are listed for review by hand.
   8. Main text length: the references, which precede the appendices, must start on page 12-16 (from paper.aux).
@@ -203,8 +203,8 @@ for k, b in entries:
     if arx and arx.group(1) not in bbl:
         bad(f"bib entry {k}: arXiv {arx.group(1)} does not appear in paper.bbl")
 pre = dict(entries).get("metoyer2026satisfied", "")
-if "placeholder" not in pre:
-    bad("the preprint entry lost its placeholder note (replace with the arXiv id only when one exists)")
+if "2611.01183" not in pre:
+    bad("the preprint entry must cite its arXiv identifier, 2611.01183")
 cited = set()
 for c in re.findall(r"\\cite[pt]?\{([^}]+)\}", body):
     cited |= {x.strip() for x in c.split(",")}
