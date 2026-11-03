@@ -217,7 +217,7 @@ notes.append(f"bibliography: {len(keys)} entries, {len(cited)} cited")
 # ------------------------------------------------------------------ 7. banned phrases and causal words
 flat = re.sub(r"\s+", " ", body)
 BANNED = [r"random reward", r"evolved reward", r"CMA-ES (transfers|generalizes|is better|outperforms|beats)",
-          r"\bmatched\b", r"replicat\w*\W+(?:\w+\W+){0,5}preprint", r"preprint\W+(?:\w+\W+){0,5}replicat",
+          r"\bmatched\b", r"replicat\w*\W+(?:\w+\W+){0,5}earlier paper", r"earlier paper\W+(?:\w+\W+){0,5}replicat", r"replicat\w*\W+(?:\w+\W+){0,5}preprint", r"preprint\W+(?:\w+\W+){0,5}replicat",
           r"random-search reward\b(?!-)", r"CMA-ES reward\b", r"selection does not protect"]
 for pat in BANNED:
     for m in re.finditer(pat, flat, re.I):

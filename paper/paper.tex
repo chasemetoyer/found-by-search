@@ -1,5 +1,5 @@
 \pdfoutput=1
-% Paper 2, built from the author's reusable template with the preprint's additions.
+% Paper 2, built from the author's reusable template with the earlier paper's additions.
 % Every measured or computed value in the prose is a macro \val{key}, defined in paper/numbers.tex, which
 % scripts/make_numbers.py generates from data/raw; each value links to its line in results/numbers.json at the tag
 % below. Tables (paper/tables/) come from scripts/make_tables.py, figures (paper/figs/) from scripts/figure*.py.
@@ -98,7 +98,7 @@ result existed. CMA-ES and an equal-budget random search used \val{s2.runs} PPO 
 evaluation and tamper test used \val{s3.runs}. On the held-out task, KeyCorridorS3R2, the CMA-ES-selected reward (E)
 beat task-only PPO, episodic novelty and the random-search-selected reward (R) in all \val{kc.hits} registered
 comparisons, all of them meaningful by the registered size rule. Among these generic rewards E transferred best;
-the preprint's satiation reward, which on this task is given hand-wired key and locked-door events, did better
+the earlier paper's satiation reward, which on this task is given hand-wired key and locked-door events, did better
 (\val{kc.S.solve.of} seeds solved against \val{kc.E.solve.of}; descriptive). On UnlockPickup, where that reward uses
 generic events, E's mean area exceeded it by \val{up.EminusS.gap} (descriptive). On the training tasks there was no
 registered difference between E and R: both E-over-R tests missed. A free reset action, absent during the search,
@@ -115,7 +115,7 @@ learning, transfer, reward tampering, pre-registration
 \section{Introduction}
 \label{sec:introduction}
 
-In our preprint \citep{metoyer2026satisfied}, PPO agents given a bounded, hand-designed homeostatic satiation reward
+In our earlier paper \citep{metoyer2026satisfied}, PPO agents given a bounded, hand-designed homeostatic satiation reward
 and a cheap action that reset their needs learned to press it and stopped solving the task, although solving was
 optimal under that reward. That reward was designed by hand. The optimal-reward view suggests another route:
 treat the reward as the outcome of a search over reward functions for whatever best serves the designer's goal
@@ -125,7 +125,7 @@ does on a task it was not selected on.
 We search over innate drives. A candidate reward has four needs, tied to four generic events of the MiniGrid
 interface \citep{chevalier2023minigrid}: seeing a new view, picking an object up, dropping it, and toggling a door or
 box. Each need has a weight, a relief and a refill rate, and the reward is the signed reduction of a weighted
-quadratic drive, the form the preprint used. We ask three questions.
+quadratic drive, the form the earlier paper used. We ask three questions.
 \begin{itemize}[itemsep=1pt]
   \item \textbf{Help.} Do searched rewards help PPO \citep{schulman2017proximal} learn the tasks they were selected on?
   \item \textbf{Transfer.} Do they help on a task that was never used during the search?
@@ -136,7 +136,7 @@ We answered them in three pre-registered stages (Figure~\ref{fig:design}). Stage
 corrected event detector. Stage~2 ran CMA-ES \citep{hansen2001completely} and an equal-budget random search over the
 twelve drive parameters and selected one reward from each. Stage~3 compared the CMA-ES-selected reward (E) and the
 random-search-selected reward (R) with task-only PPO (T) and episodic novelty (N) on two training tasks and one
-held-out task, retrained E with a free reset action, and ran the preprint's satiation reward (S) as a descriptive
+held-out task, retrained E with a free reset action, and ran the earlier paper's satiation reward (S) as a descriptive
 reference. Comparisons of E and R compare two selected genomes; one draw from each search method cannot rank the
 methods.
 
@@ -156,7 +156,7 @@ Our contributions, each with its evidence level:
   each episode and refills only its view need (a record of the frozen genome). Across all searched candidates, positive weights on pickup and toggle
   were associated with higher fitness across all candidates and among random-search candidates alone; the drop
   association reverses among random-search candidates (\EXP).
-  \item \textbf{A public pre-registration lock (Section~\ref{sec:prereg}, Appendix~\ref{app:timeline}).} The preprint's
+  \item \textbf{A public pre-registration lock (Section~\ref{sec:prereg}, Appendix~\ref{app:timeline}).} The earlier paper's
   lock times were self-reported. Here the Stage~2 protocol, which also registered every Stage~3 test, was committed
   and pushed to a public repository before any search result existed (pushed \val{reg.s2.push}).
   \item \textbf{Every registered test and rule is reported, including misses (Section~\ref{sec:wrong},
@@ -166,7 +166,7 @@ Our contributions, each with its evidence level:
 Results carry one of three labels. \REG{} marks confirmatory tests and hit rules fixed in the locked protocol.
 \PSD{} marks descriptive quantities named in the locked protocol or in amendments committed before the data
 existed. \EXP{} marks everything else. We also label arithmetic references (\DER) and untested explanations (\HYP).
-Event definitions differ from the preprint's archived detector, so comparisons with the preprint are qualitative only.
+Event definitions differ from the earlier paper's archived detector, so comparisons with the earlier paper are qualitative only.
 
 % ======================================================================================================
 \section{Background and related work}
@@ -204,7 +204,7 @@ this kind and found it wireheaded through a reset action \citep{metoyer2026satis
 accident-risk problems, and \citet{skalse2022defining} give a formal definition of reward hacking. \citet{everitt2021reward}
 study when an agent has an instrumental goal to tamper with its reward process and give design principles against
 reward-function tampering and against tampering with the reward function's input. Our reset action changes the
-need state the reward reads, so in their terms it is input tampering, as in the preprint.
+need state the reward reads, so in their terms it is input tampering, as in the earlier paper.
 
 \paragraph{Random search and CMA-ES.} \citet{bergstra2012random} show that random trials are more efficient than a
 grid when only a few hyperparameters matter, and propose random search as the natural baseline for adaptive
@@ -250,7 +250,7 @@ pairs a held-out transfer test and a tamper test of the same searched reward und
 candidate was trained on both training tasks with \val{s2.searchseeds} seeds each; the top \val{s2.finalists}
 candidates per method were re-evaluated on fresh seeds and the best re-evaluated candidate per method was frozen
 as E or R. The Stage~2 lock also registered every Stage~3 test. Stage~3 evaluated E, R, task-only PPO (T) and
-episodic novelty (N) on the two training tasks and on the held-out KeyCorridorS3R2, with the preprint's satiation
+episodic novelty (N) on the two training tasks and on the held-out KeyCorridorS3R2, with the earlier paper's satiation
 reward (S) as a descriptive arm, and retrained E with a free reset action. Seed sets never overlap across roles.}
 \label{fig:design}
 \end{figure}
@@ -280,15 +280,15 @@ The four events are generic. A \emph{new view} is a $7\times7$ egocentric observ
 \emph{toggle} is any door changing its open or locked state, including closing and reopening, or a box being opened.
 Stage~1 fixed four detector choices: events on an episode's final step count; box openings count as toggles; a
 pickup that itself completes the task is excluded from the paid pickup event; and the detector attaches only after
-the initial reset. The preprint's archived detector differed in ways documented by an audit of its code committed with the
+the initial reset. The earlier paper's archived detector differed in ways documented by an audit of its code committed with the
 Stage~1 materials: it skipped pickup and door events on an episode's final step, its door cache was empty during each
 parallel environment's first training episode, it did not detect box openings, and it had no drop event. Its event
 counts and ours are therefore not interchangeable.
 
 \subsection{Learner and tasks}
 \label{sec:tasks}
-The learner is the preprint's PPO \citep{schulman2017proximal}, in the single-file style of CleanRL
-\citep{huang2022cleanrl}, with the preprint's settings (Appendix~\ref{app:hyper}): \val{ppo.envs} parallel
+The learner is the earlier paper's PPO \citep{schulman2017proximal}, in the single-file style of CleanRL
+\citep{huang2022cleanrl}, with the earlier paper's settings (Appendix~\ref{app:hyper}): \val{ppo.envs} parallel
 environments, per-minibatch advantage normalization, and nominal 2M environment steps per run
 (\val{d.actual} actual steps, in whole rollouts). Tasks are MiniGrid environments \citep{chevalier2023minigrid}. Stage~1
 applied a fixed selection rule to task-only and episodic-novelty baselines: a training task was kept if its better
@@ -320,7 +320,7 @@ all, Stage~2 trained \val{s2.runs} runs: \val{s2.search} search runs and \val{s2
 \label{sec:evalsetup}
 Stage~3 trained five arms on DoorKey-8x8, UnlockPickup and the held-out KeyCorridorS3R2, with \val{s3.seeds} fresh
 seeds per arm and task (\val{seeds.final}): E, R, task-only PPO (T) and episodic novelty with coefficient
-\val{d.Ncoef} (N), plus the preprint's satiation reward with growth \val{d.Sgrowth} and the corrected detector (S). S
+\val{d.Ncoef} (N), plus the earlier paper's satiation reward with growth \val{d.Sgrowth} and the corrected detector (S). S
 was registered as descriptive only. Its three needs (explore, grasp, open) differ from E's and R's in two ways that
 bear on the held-out comparison. On KeyCorridor tasks its grasp event counts only key pickups and its open event counts
 only the opening of a door that was locked at the start of the episode; on DoorKey-8x8 and UnlockPickup it uses the
@@ -493,7 +493,7 @@ Figure~\ref{fig:curves}a):
   \item E solved \val{kc.E.solve} seeds; R, T and N solved \val{kc.R.solve}, \val{kc.T.solve} and \val{kc.N.solve} (\PSD).
 \end{itemize}
 The $p$-values of \val{kc.ET.p} are at the permutation floor, so they bound rather than estimate the evidence.
-Among the generic-event arms, E transferred best (\REG{} comparisons). The preprint's satiation reward did better than E on this task: S
+Among the generic-event arms, E transferred best (\REG{} comparisons). The earlier paper's satiation reward did better than E on this task: S
 solved \val{kc.S.solve} seeds with mean area \val{kc.S.area}, against E's \val{kc.E.solve} and \val{kc.E.area} (\PSD;
 S was not tested against E). S differs from E on KeyCorridor in two ways at once: its events are hand-wired (a key
 pickup and the opening of the initially locked door are its only grasp and open events), and its door need refills.
@@ -559,13 +559,13 @@ flag the action is a no-op, but its presses are still counted. \PSD. \src{figure
   \val{tam.solve.on} (\PSD).
   \item \textbf{Worse than task-only PPO} (\PSD). Tamper-on E's mean area was \val{tam.vsT.gap} below task-only PPO's
   on DoorKey-8x8 (\val{dk.T.area}). The two panels used different seeds (\val{seeds.tamper} and \val{seeds.final}) and
-  no test was registered. This is qualitatively consistent with the preprint's finding that a self-fillable
+  no test was registered. This is qualitatively consistent with the earlier paper's finding that a self-fillable
   satisfaction signal was worse than none; detectors, rewards and seeds differ.
   \item \textbf{Label} (\PSD). The pre-specified label is \emph{\val{tam.label}}: the area rule held, and the median
   presses per completed episode exceeded \val{lab.press} in all \val{tam.windows} final-window logs (window medians
   \val{tam.medmin} to \val{tam.medmax}).
   \item \textbf{The press criterion is weak} (\PSD{} numbers, our reading). More than one press per episode is easy to
-  exceed in long, failing episodes, as the preprint found for its own labels. In the final 10\% of training,
+  exceed in long, failing episodes, as the earlier paper found for its own labels. In the final 10\% of training,
   tamper-on agents pressed on \val{tam.on.pps10} of steps, below the \val{tam.uniform} a uniform policy would press
   (\DER). Early in training the rate rose above the uniform rate (Figure~\ref{fig:tamperdyn}a). The area gap, not the
   label, is the primary evidence.
@@ -642,7 +642,7 @@ measurement failures were these.
   \item \textbf{The tamper label's press threshold was too low.} The label asked for more than one press per
   completed episode; every final window cleared it many times over, while the per-step rate was below a uniform
   policy's, so a policy pressing at random would also have met it (\DER). The area half of the label holds; the press
-  half measures little in long, failing episodes, as the preprint found for its own repeat threshold.
+  half measures little in long, failing episodes, as the earlier paper found for its own repeat threshold.
   \item \textbf{The search score overstated the CMA-ES finalists.} Not a registered prediction: the
   \val{s2.searchseeds}-seed search score ranked every CMA-ES finalist above every random-search finalist, and fresh seeds reversed that order
   (Table~\ref{tab:finalists}). The registered re-evaluation step caught it.
@@ -693,7 +693,7 @@ hyperparameters where few dimensions matter. We did not test this.
 \paragraph{Selection did not protect E against an exploit absent during selection.} The reset action was not part of
 the search environment, so the search could neither reward nor penalize a reward's response to it, and E's positive
 $P_0$ made a reset pay whenever the drive was positive. The registered collapse and the descriptive comparison with
-task-only PPO are qualitatively consistent with the preprint's result for a hand-designed reward, where a signal the
+task-only PPO are qualitatively consistent with the earlier paper's result for a hand-designed reward, where a signal the
 agent could fill itself did worse than no signal. In the terms of \citet{everitt2021reward}, the
 reset is tampering with the reward function's input, and nothing in our selection removed the incentive to do it.
 
@@ -708,7 +708,7 @@ structurally different tasks (several doors, distractor objects) rather than two
   \item \textbf{Tasks.} One held-out task and \val{d.ntrain} training tasks, all in MiniGrid. The transfer claim rests
   on KeyCorridorS3R2 alone.
   \item \textbf{Search noise and learner.} \val{s2.searchseeds} seeds per task per candidate, with generation-specific
-  seed panels; one PPO configuration, the preprint's (Appendix~\ref{app:hyper}).
+  seed panels; one PPO configuration, the earlier paper's (Appendix~\ref{app:hyper}).
   \item \textbf{Numerics and infrastructure.} Same-seed runs are not bit-identical across CPU types, so comparisons are
   unpaired and exact cross-machine reproduction is not established (Appendix~\ref{app:infra}); Stage~2 had
   interruptions, retries and a laptop-bound controller.
@@ -716,8 +716,8 @@ structurally different tasks (several doors, distractor objects) rather than two
   door need); on UnlockPickup, with generic events, it scored below E. E against R compares two selected genomes, not two search methods.
   \item \textbf{Exploratory analyses} are post hoc, in an adaptively sampled population.
   \item \textbf{Tamper scope.} DoorKey-8x8 only, free presses, E only.
-  \item \textbf{Detector.} Event definitions differ from the preprint's archived detector; comparisons with the
-  preprint are qualitative.
+  \item \textbf{Detector.} Event definitions differ from the earlier paper's archived detector; comparisons with the
+  earlier paper are qualitative.
 \end{itemize}
 
 % ======================================================================================================
@@ -839,7 +839,7 @@ tables, including per-task outcomes and every feature, are in the Stage~3 report
 \begin{table}[h]
 \centering
 \small
-\caption{\textbf{PPO settings (the preprint's) and software versions.} From the archived trainer configuration and
+\caption{\textbf{PPO settings (the earlier paper's) and software versions.} From the archived trainer configuration and
 the locked environment. \src{table11}{results/table11_hyper.csv}}
 \label{tab:hyper}
 \input{tables/hyper.tex}
@@ -873,7 +873,7 @@ so the upper bound is $V_0=P_0$.
   \nolinkurl{data/raw/repo}. The Stage~2 lock is commit \val{reg.s2.commit}; the Stage~3 science run used source
   commit \val{s3.commit}. The full Stage~3 run archive (run logs and policy checkpoints) is not in the repository.
   \item \textbf{Archive.} The repository at tag \texttt{v1.1} is archived on Zenodo at
-  \href{https://doi.org/10.5281/zenodo.23828842}{doi:10.5281/zenodo.23828842}. The preprint's release materials are at
+  \href{https://doi.org/10.5281/zenodo.23828842}{doi:10.5281/zenodo.23828842}. The earlier paper's release materials are at
   doi:10.5281/zenodo.23708846.
 \end{itemize}
 
